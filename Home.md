@@ -1,6 +1,12 @@
 Welcome to the Universal-G-Code-Sender wiki!
 
-Other pages:
+### User Guide
+
+The main user guide is on the website:
+
+  &nbsp; &nbsp; http://winder.github.io/ugs_website/guide/platform/#usage
+
+### Other pages
 
 [[An overview of how the code is organized|Code Overview]]
 
