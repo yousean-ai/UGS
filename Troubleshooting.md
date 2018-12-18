@@ -14,10 +14,18 @@ UGS does have additional secondary missions through plugins. Some of these are:
 1. Probe wizard to automatically set WCS.
 1. Workflow manager to help with tool changes between separate programs.
 
-If your problem doesn't fit into the above, it may be that the problem is actually outside of UGS. Things like the WCS moves mysteriously between restarts of the machine could be a controller issue. If the WCS moves between programs, this could be a CAM issue, particularly if you program multiple multiple work setups. This also assumes that the work is adequately secured to the machine and has not physically shifted. Markers/setup or gauge blocks/ruler/calipers and a cameraphone can be a great sanity check for this sort of thing depending on the scale one operates at.
+If your problem doesn't fit into the above, it may be that the problem is actually outside of UGS.
+
+Example: The WCS moves mysteriously between restarts of the machine. This could be a controller issue.
+
+Example: If the WCS moves between programs, this could be a CAM issue, particularly if you program multiple multiple work setups. This also assumes that the work is adequately secured to the machine and has not physically shifted. Markers/setup or gauge blocks/ruler/calipers and a cameraphone can be a great sanity check for this sort of thing depending on the scale one operates at.
+
+-----
 
 ## UGS Issues
 TODO: writeme. Maybe link to an FAQ page.
+
+-----
 
 ## Controller Issues
 ### Connecting UGS to a controller such as Grbl / TinyG / Smoothie for the first time?
@@ -82,6 +90,8 @@ In UGS go to
 1. Back in the main page, under `Firmware` at the top choose `Smoothie`.
 1. For `Port`, type the IP address or hostname of your smoothie board.
 1. For `Baud` type `23`.
+
+-----
 
 ## CAM Issues
 TODO: Writeme!
