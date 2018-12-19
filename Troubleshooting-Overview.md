@@ -21,7 +21,7 @@ If your problem doesn't fit into the above, it may be that the problem is actual
 | Strange motion | Controller |
 | WCS moves between restarts of controller | Controller |
 | WCS moves between programs | CAM or Controller |
-| Unable to connect to controller | Controller |
+| [Unable to connect to controller](/winder/Universal-G-Code-Sender/wiki/Connecting-the-Controller) | Controller |
 
 ## UGS not starting properly?
 If you have recently upgraded UGS and it has been a long time since the previous upgrade, sometimes the preference files need to be reset. Preferences are kept in a user directory called `.ugsplatform`, the path varies between the major operating systems:
