@@ -23,7 +23,7 @@ If your problem doesn't fit into the above, it may be that the problem is actual
 | WCS moves between programs | CAM or Controller |
 | [Unable to connect to controller](/winder/Universal-G-Code-Sender/wiki/Connecting-the-Controller) | Controller |
 
-## UGS not starting properly?
+## UGS is not starting properly
 If you have recently upgraded UGS and it has been a long time since the previous upgrade, sometimes the preference files need to be reset. Preferences are kept in a user directory called `.ugsplatform` for `v2.0` and `.ugs` for `v1.0`, and deleting (or renaming) this directory will reset UGS back to the defaults.
 
 The exact path varies between the major operating systems because of where they keep user data. The [Official UGS website](http://winder.github.io/ugs_website) lists the [locations of property and preference files](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files).
