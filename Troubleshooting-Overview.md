@@ -24,15 +24,9 @@ If your problem doesn't fit into the above, it may be that the problem is actual
 | [Unable to connect to controller](/winder/Universal-G-Code-Sender/wiki/Connecting-the-Controller) | Controller |
 
 ## UGS not starting properly?
-If you have recently upgraded UGS and it has been a long time since the previous upgrade, sometimes the preference files need to be reset. Preferences are kept in a user directory called `.ugsplatform`, the path varies between the major operating systems:
+If you have recently upgraded UGS and it has been a long time since the previous upgrade, sometimes the preference files need to be reset. Preferences are kept in a user directory called `.ugsplatform` for `v2.0` and `.ugs` for `v1.0`.
 
-| OS | Path |
-| -- | -- |
-| Windows | `C:\Users\`username`\AppData\Roaming\.ugsplatform` |
-| Mac OS X | [TODO: find folder path] |
-| Linux | `~/.ugsplatform` |
-
-The folder will be hidden by default, so you will need to show hidden files in your file manager.
+The exact path varies between the major operating systems because of where they keep user data. The [Official UGS website](http://winder.github.io/ugs_website) lists the [locations of property and preference files](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files).
 
 # Open Issues
 Found a problem? Check the [list of open issues](https://github.com/winder/Universal-G-Code-Sender/issues) and see if someone is already working on it.
