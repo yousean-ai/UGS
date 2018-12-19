@@ -28,7 +28,7 @@ If you have recently upgraded UGS and it has been a long time since the previous
 
 The exact path varies between the major operating systems because of where they keep user data. The [Official UGS website](http://winder.github.io/ugs_website) lists the [locations of property and preference files](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files).
 
-If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` can be found in `/ugs-platform/application/target/userdir/var/log/messages.log` wherever UGS is installed.
+If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files) depending on your OS.
 
 # Open Issues
 Found a problem? Check the [list of open issues](https://github.com/winder/Universal-G-Code-Sender/issues) and see if someone is already working on it.
