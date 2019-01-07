@@ -30,7 +30,7 @@ If you have recently upgraded UGS and it has been a long time since the previous
 The exact path varies between the major operating systems because of where they keep user data. The [Official UGS website](http://winder.github.io/ugs_website) lists the [locations of property and preference files](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files).
 
 ### Java Version
-Currently UGS Platform requires Java 8. More recent versions of Java may or may not work. Ticket [#1151](winder/Universal-G-Code-Sender/issues/1151) shows how to change Java versions for several operating systems.
+Currently UGS Platform requires Java 8. More recent versions of Java may or may not work. Ticket [#1151](https://github.com/winder/Universal-G-Code-Sender/issues/1151) shows how to change Java versions for several operating systems.
 
 ### Other problems
 If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files) depending on your OS.
