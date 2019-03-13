@@ -1,3 +1,3 @@
 [UGS Wiki](Home)
 
-[FAQ and Troubleshooting](Troubleshooting Overview)
+[FAQ and Troubleshooting](Troubleshooting-Overview)
