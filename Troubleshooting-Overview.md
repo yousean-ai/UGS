@@ -4,7 +4,7 @@ Many issues and requests for help are not actually specific to UGS, some of thes
 
 UGS has three simple primary missions:
 1. Take G-code from your computer and send it to your controller.
-1. Send signals to your controller for setting up jobs. Examples: jogging and setting _Work Coordinate System_ (WCS) manually.
+1. Send signals to your controller for setting up jobs. Examples: Homing, Jogging and setting Work Coordinate System (WCS) manually.
 1. Displaying and changing controller status. Examples: seeing alarm statuses and clearing them, toggling coolant, or adjusting speed+feed overrides, or pausing the program.
 
 UGS does have additional secondary missions through plugins. Some of these are:
@@ -17,8 +17,8 @@ If your problem doesn't fit into the above, it may be that the problem is actual
 | Description | Likely Components |
 | --- | --- |
 | Strange motion | Controller |
-| _Work Coordinate System_ moves between restarts of controller | Controller |
-| _Work Coordinate System_ moves between programs | CAM or Controller |
+| Work Coordinate System changes between restarts of controller | Controller |
+| Work Coordinate System changes between programs | CAM or Controller |
 | [Unable to connect to controller](/winder/Universal-G-Code-Sender/wiki/Connecting-the-Controller) | Controller |
 
 ## UGS is not starting properly
