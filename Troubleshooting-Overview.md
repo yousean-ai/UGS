@@ -1,5 +1,3 @@
-# Troubleshooting Overview
-
 ## Is the problem UGS, the controller, or CAM?
 
 Many issues and requests for help are not actually specific to UGS, some of these are related to connecting to the controller, while others are CAM related.
