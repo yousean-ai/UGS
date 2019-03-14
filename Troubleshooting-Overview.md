@@ -33,5 +33,11 @@ Currently UGS Platform requires Java 8. More recent versions of Java may or may 
 ### Other problems
 If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files) depending on your OS.
 
+## Program Slows Down and Send Freezes
+If you notice slowness while running your program, it may mean UGS is running out of available memory. There are a couple things to try:
+
+* Check the controller settings, and make sure "Arc Expander" is not enabled. This can take a small program and turn it into a very large one by converting arcs into many small movements.
+* Increase the memory allocated to UGS by navigating the the installation directory. There is a folder named etc containing ugsplatform.conf, open this file with a simple text editor and modify the value of Xms to something like -J-Xms256m, or larger. [Additional details can be found here](http://wiki.netbeans.org/FaqSettingHeapSize)
+
 # Open Issues
 Found a problem? Check the [list of open issues](https://github.com/winder/Universal-G-Code-Sender/issues) and see if someone is already working on it.
