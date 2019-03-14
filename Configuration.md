@@ -23,7 +23,7 @@ These are the settings the setup wizard can help you with:
 ## Configuring UGS Platform
 
 ### Configuration files
-The settings for UGS Platform is divided into two types of configurations, the UGS specific settings and one for the user interface (describing how the different windows should be placed and so on).
+The configuration for UGS Platform is divided into two types; the UGS specific settings and one for the user interface (ex. describing how the different windows should be placed and so on).
 
 The UGS specific settings (which is also common with the UGS Classic edition) is located in your home directory. 
 * **Windows**: /home/user/ugs
