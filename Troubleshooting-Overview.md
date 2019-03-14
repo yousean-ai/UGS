@@ -33,6 +33,14 @@ Currently UGS Platform requires Java 8. More recent versions of Java may or may 
 ### Other problems
 If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files) depending on your OS.
 
+## "Grbl has not finished booting."
+This happens when UGS connects to a serial port and does not receive the GRBL startup string. Typically this is caused by a configuration problem and can be solved by one of the following:
+
+* Check the baud rate is 115200, or 9600 for very old versions of grbl.
+* Make sure you are connecting to the correct port.
+* Make sure you have installed any drivers required for your controller.
+* Make sure GRBL is properly flashed on your controller.
+
 ## Program Slows Down and Send Freezes
 If you notice slowness while running your program, it may mean UGS is running out of available memory. There are a couple things to try:
 
