@@ -1,16 +1,16 @@
 ## Configuring the Controller
 
 ### Firmware settings
-All your controller firmware settings are available in an configuration dialog and will let you tweak all the inner workings on your hardware. It is available in both the UGS Classic and UGS Platform edition:
-* UGS Classic - Open the menu `Settings -> Firmware Settings`
-* UGS Platform - Open the menu `Machine -> Firmware Settings`
+All your controller firmware settings are available in an configuration dialog and will let you tweak the inner workings of your hardware. It is available in both the UGS Classic and UGS Platform edition:
+* UGS Classic - Open the menu `Settings → Firmware Settings`
+* UGS Platform - Open the menu `Machine → Firmware Settings`
 
 ### Setup Wizard
 > The setup wizard is currently only available in the UGS Platform edition and GRBL. 
 
-Setting up your controller firmware configuration by hand can be challenging and may require a lot of _RTFM_. The **Setup Wizard** will help you set up your controller without the need to know how to create bitmasks and what features that is dependant on each other. 
+Setting up your controller firmware configuration by hand can be challenging and may require a lot of _RTFM_. The **Setup Wizard** will help you set up your controller without the need to know how to create bitmasks and what features are dependant on another. 
 
-To access it, open the menu `Machine -> Setup Wizard...`
+To access it, open the menu `Machine ➞ Setup Wizard...`
 
 These are the settings the setup wizard can help you with:
  * Import saved settings from file
