@@ -1,4 +1,4 @@
-As of version 1.0.6 Universal Gcode Sender should work out of the box on Raspberry Pi (or Tinkerboard).
+As of version 1.0.6 Universal Gcode Sender should work out of the box on Raspberry Pi (or Asus Tinker Board).
 
 ## Install Java
 First of all we need to install Java, run these commands from the terminal: 
