@@ -18,7 +18,7 @@ Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
 Java HotSpot(TM) Client VM (build 25.65-b01, mixed mode)
 ```
 
-## Download UGS
+## Download and start UGS
 Download one of the versions of UGS from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
 
 Classic version:
@@ -26,12 +26,14 @@ Classic version:
 wget -O UniversalGcodeSender.zip http://bit.ly/2ErycR3
 unzip -o UniversalGcodeSender.zip -d ugs
 chmod +x ugs/start.sh
+./ugs/start.sh
 ```
 
 Platform version:
 ```
 wget -O ugsplatform.zip http://bit.ly/2R5zw2F
 unzip -o ugsplatform.zip
+./ugsplatform/bin/ugsplatform
 ```
 
 ## Change the connection driver
