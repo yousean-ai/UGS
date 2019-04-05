@@ -19,7 +19,7 @@ Java HotSpot(TM) Client VM (build 25.65-b01, mixed mode)
 ```
 
 ## Download and start UGS
-Download one of the versions of UGS from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
+Download UGS (either classic or platform edition) from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
 
 Classic version:
 ```bash
