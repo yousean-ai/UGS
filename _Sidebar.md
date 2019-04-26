@@ -1,4 +1,4 @@
-:house: [UGS Wiki](Home)
+:house: [Home](Home)
 
 :floppy_disk: [Installing](Installing)
 
