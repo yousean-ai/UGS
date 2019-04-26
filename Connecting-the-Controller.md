@@ -1,5 +1,3 @@
-# Connecting the Controller
-
 Connecting UGS to a controller such as Grbl / TinyG / Smoothie requires that the correct firmware, port and speed be selected for USB connections, or the correct firmware, host and tcp port for network based connections.
 
 If you don't know what which port to connect to, generally it can be determined by [downloading Arduino](https://www.arduino.cc/en/main/software), and then selecting each port (Tools -> Port) then going to the serial monitor (Tools -> Serial Monitor), until you get a screen that shows some output that looks like coordinates, some help text, or some version information.
