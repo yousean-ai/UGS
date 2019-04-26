@@ -1,7 +1,9 @@
 ## Configuring the Controller
 
 ### Firmware settings
-All your controller firmware settings are available in an configuration dialog and will let you tweak the inner workings of your hardware. It is available in both the UGS Classic and UGS Platform edition:
+> The firmware settings is available for GRBL, TinyG and g2core
+
+All your controller firmware settings are available in a configuration dialog and will let you tweak the inner workings of your hardware. It is available in both the UGS Classic and UGS Platform edition:
 * UGS Classic - Open the menu `Settings → Firmware Settings`
 * UGS Platform - Open the menu `Machine → Firmware Settings`
 
