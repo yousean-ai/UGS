@@ -2,7 +2,7 @@
 
 :floppy_disk: [Installing](Installing)
 
-:sparkles: [Connecting-the-Controller](Connecting)
+:sparkles: [Connecting](Connecting-the-Controller)
 
 :hammer_and_wrench: [Configuration](Configuration)
 
