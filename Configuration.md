@@ -35,7 +35,9 @@ The UGS specific settings (which is also common with the UGS Classic edition) is
 It contains `UniversalGcodeSender.json` which holds the settings such as: jog feed rates, your macros, your file history and so on. There is also the directory `firmware_config` which contains several configurations for different types firmwares.
 
 ### Configuring the toolbar
-TBD
+The toolbar can be configured by right clicking in the toolbar and choose `Customize`. From there new icons can be added and removed. New toolbars can be added or hidden.
+
+![Toolbar customization](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/customize_toolbar.gif)
 
 ### Configuring panels and windows
 TBD
