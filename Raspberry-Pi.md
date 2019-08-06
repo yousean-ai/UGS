@@ -70,4 +70,6 @@ Make sure UGS uses the **JSSC** connection driver, otherwise the connection to t
 Due to a limitation in the pendant UI module build script, the software can't be completely built on an RaspberryPi. 
 
 You would need to inactivate the pendant UI module by disabling the profile:
-`mvn install -P '!create-pendant-web-ui'`
+```
+mvn install -P '!create-pendant-web-ui'
+```
