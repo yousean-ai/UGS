@@ -3,10 +3,6 @@
 :floppy_disk: [Installing](Installing)
 
 :running: [Running](Running)
-  - [Linux](Running#linux)
-  - [Mac OSX](Running#macosx)
-  - [Windows](Running#windows)
-  - [Raspberry Pi](Running##raspberry-pi-with-raspbian)
 
 :sparkles: [Connecting the controller](Connecting-the-Controller)
 
