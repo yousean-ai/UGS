@@ -1,5 +1,23 @@
 ## MacOSX
-TBD
+First we need to install Java, download and install it from this page:
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+Download UGS (either classic or platform edition) from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
+
+Classic version:
+```bash
+wget -O UniversalGcodeSender.zip http://bit.ly/2GGgNF7
+unzip -o UniversalGcodeSender.zip -d ugs
+chmod +x ugs/start.sh
+./ugs/start.sh
+```
+
+Platform version:
+```
+wget -O ugsplatform.zip http://bit.ly/2XANF7B
+unzip -o ugsplatform.zip
+./ugsplatform/bin/ugsplatform
+```
 
 ## Linux
 
