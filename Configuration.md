@@ -10,7 +10,7 @@ Your controller firmware settings is available in a configuration dialog and wil
 ### Setup Wizard
 > The setup wizard is currently only available in the UGS Platform edition and GRBL. 
 
-Setting up your controller firmware configuration by hand can be challenging and may require a lot of _RTFM_. The **Setup Wizard** will help you set up your controller without the need to know how to create bitmasks and what features are dependent on another. 
+Setting up your controller firmware configuration by hand can be challenging and may require a lot of documentation reading. The **Setup Wizard** will help you set up your controller without the need to know how to _create bitmasks_ and what features are dependent on another. 
 
 To access it, open the menu `Machine ➞ Setup Wizard...`
 
