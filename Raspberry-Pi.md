@@ -48,7 +48,6 @@ Download UGS (either classic or platform edition) from the download link: https:
 
 Classic version:
 ```bash
-wget -O UniversalGcodeSender.zip http://bit.ly/2GGgNF7
 unzip -o UniversalGcodeSender.zip -d ugs
 chmod +x ugs/start.sh
 ./ugs/start.sh
@@ -56,7 +55,6 @@ chmod +x ugs/start.sh
 
 Platform version:
 ```
-wget -O ugsplatform.zip http://bit.ly/2XANF7B
 unzip -o ugsplatform.zip
 ./ugsplatform/bin/ugsplatform
 ```
