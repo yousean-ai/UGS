@@ -1,1 +1,0 @@
-[Discussion forum](https://groups.google.com/forum/#!forum/universal-gcode-sender)
