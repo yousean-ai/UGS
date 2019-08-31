@@ -4,9 +4,11 @@ Universal Gcode Sender is a full featured gcode platform used for interfacing wi
 
 :running: [Running](Running)
 
-:sparkles: [Connecting the controller](Connecting-the-Controller)
+:electric_plug: [Connecting the controller](Connecting-the-Controller)
 
 :hammer_and_wrench: [Configuration](Configuration)
+
+:sparkles: [Usage](Usage)
 
 :question: [FAQ and Troubleshooting](Troubleshooting-Overview)
 
