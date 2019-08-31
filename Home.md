@@ -1,6 +1,6 @@
 ![Universal Gcode sender](http://winder.github.io/ugs_website/img/platform/screenshot.png)
 
-UGS is a full featured gcode platform used for interfacing with advanced CNC controllers like GRBL and TinyG. It is a self-contained Java application which includes all external dependencies, that means if you have the Java Runtime Environment setup UGS provides the rest.
+Universal Gcode Sender is a full featured gcode platform used for interfacing with advanced CNC controllers like GRBL and TinyG. It is a self-contained Java application which includes all external dependencies, that means if you have the Java Runtime Environment setup UGS provides the rest.
 
 [![Language](http://winder.github.io/ugs_website/img/shields/Language-Java-brightgreen.svg)](https://java.com/en/download/manual.jsp)
 [![License](http://winder.github.io/winder/ugs_website/img/shields/License-GPLv3-blue.svg)](http://www.gnu.org/licenses/quick-guide-gplv3.en.html)
