@@ -8,7 +8,7 @@
   * [Configuring the visualizer colors](#configuring-the-visualizer-colors)
   * [Configuring Macros](#configuring-macros)
 * [Configuring UGS Classic](#configuring-ugs-classic)
-  * Configuring Macros
+  * [Configuring Macros](#configuration-files-1)
 
 ## Configuring the Controller
 
