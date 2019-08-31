@@ -1,3 +1,15 @@
+* [Configuring the Controller](#configuring-the-controller)
+  * [Firmware settings](#firmware-settings)
+  * [Setup Wizard](#setup-wizard)
+* [Configuring UGS Platform](#configuring-ugs-platform)
+  * [Configuration files](#configuration-files)
+  * [Configuring the toolbar](#configuring-the-toolbar)
+  * [Configuring panels and windows](configuring-panels-and-windows)
+  * [Configuring the visualizer colors](configuring-the-visualizer-colors)
+  * [Configuring Macros](configuring-macros)
+* [Configuring UGS Classic](#configuring-ugs-classic)
+  * Configuring Macros
+
 ## Configuring the Controller
 
 ### Firmware settings
