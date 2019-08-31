@@ -24,15 +24,19 @@ Your controller firmware settings is available in a configuration dialog and wil
 
 Setting up your controller firmware configuration by hand can be challenging and may require a lot of documentation reading. The **Setup Wizard** will help you set up your controller without the need to know how to _create bitmasks_ and what features are dependent on another. 
 
-To access it, open the menu `Machine ➞ Setup Wizard...`
+* To start the wizard open the menu `Machine -> Setup wizard...` <br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-1.png" alt="Start the setup wizard"/>
+* If you aren't connected to your controller a connection dialog will be presented: <br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-2.png" width="80%" alt="Connect to controller"/>
+* The version of the controller will be shown after connecting and the available setup steps will be loaded for your controller:<br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-3.png" width="80%" alt="Connected controller"/>
+* If you have a settings file from your machine manufacturer or if you have a backup of your settings you may import it here:<br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-4.png" width="80%" alt="Import settings"/>
+* On the motor wiring configuration page you can test the direction of your motors and change its direction if needed. <br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-5.png" width="80%" alt="Motor wiring configuration"/>
+* On the step calibration page you can move the machine and measure the actual distance. It will then recommend a step setting for your machine: <br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-6.png" width="80%" alt="Step calibration"/>
+* If you have limit switches you may enable them on this page and test if they are firing correctly: <br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-7.png" width="80%" alt="Limit switches"/>
+* If limit switches are enabled you may enable homing as well. This page helps you figuring out in which direction the homing should be made: <br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-8.png" width="80%" alt="Homing setup"/>
+* If homing is enabled you may also configure soft limits so that the controller knows if it can process a command without triggering limit switches: <br/><img src="http://winder.github.io/ugs_website/img/guide/platform/setup_wizard-9.png" width="80%" alt="Soft limits setup"/>
 
-These are the settings the setup wizard can help you with:
- * Import saved settings from file
- * Setup motor wiring to make sure motors run in the right direction
- * Calibrate your motor steps
- * Configure and test your limit switches
- * Configure and test homing
- * Configure the software limits creating a safe work area for your machine
+
+
+
 
 ## Configuring UGS Platform
 
