@@ -19,3 +19,4 @@ There are many awesome G-code senders out there, here we've tried to create a co
 
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_
+_* **CLI** Command Line Interface for interacting with the software without a GUI
