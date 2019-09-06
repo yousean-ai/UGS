@@ -35,6 +35,38 @@ Currently UGS Platform requires Java 8. More recent versions of Java may or may 
 ### Antivirus software
 There has been a case where the antivirus software (Comodo) caused a problem with a popup that wasn't able to close. The issue was resolved by disabling the antivirus software: https://github.com/winder/Universal-G-Code-Sender/issues/1237
 
+### Error message "Assistive Technology not found"
+On KDE Neon 5.16 with OpenJDK 1.8.0_212 a user got the follwing error message:
+
+```
+./start.sh 
+Exception in thread "main" java.awt.AWTError: Assistive Technology not found: org.GNOME.Accessibility.AtkWrapper
+        at java.awt.Toolkit.loadAssistiveTechnologies(Toolkit.java:807)
+        at java.awt.Toolkit.getDefaultToolkit(Toolkit.java:886)
+        at sun.swing.SwingUtilities2.getSystemMnemonicKeyMask(SwingUtilities2.java:2020)
+        at javax.swing.plaf.basic.BasicLookAndFeel.initComponentDefaults(BasicLookAndFeel.java:1158)
+        at javax.swing.plaf.metal.MetalLookAndFeel.initComponentDefaults(MetalLookAndFeel.java:431)
+        at javax.swing.plaf.basic.BasicLookAndFeel.getDefaults(BasicLookAndFeel.java:148)
+        at javax.swing.plaf.metal.MetalLookAndFeel.getDefaults(MetalLookAndFeel.java:1577)
+        at javax.swing.UIManager.setLookAndFeel(UIManager.java:539)
+        at javax.swing.UIManager.setLookAndFeel(UIManager.java:579)
+        at javax.swing.UIManager.initializeDefaultLAF(UIManager.java:1349)
+        at javax.swing.UIManager.initialize(UIManager.java:1459)
+        at javax.swing.UIManager.maybeInitialize(UIManager.java:1426)
+        at javax.swing.UIManager.getInstalledLookAndFeels(UIManager.java:419)
+        at com.willwinder.universalgcodesender.MainWindow.main(MainWindow.java:180)
+```
+
+To solve this, edit the accessibility.properties file for OpenJDK:
+```
+sudo vim /etc/java-8-openjdk/accessibility.properties
+```
+
+Comment out the following line:
+```
+assistive_technologies=org.GNOME.Accessibility.AtkWrapper
+```
+
 ### Other problems
 If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](http://winder.github.io/ugs_website/guide/troubleshooting/#property-files) depending on your OS.
 
