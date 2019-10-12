@@ -36,7 +36,7 @@ Currently UGS Platform requires Java 8. More recent versions of Java may or may 
 There has been a case where the antivirus software (Comodo) caused a problem with a popup that wasn't able to close. The issue was resolved by disabling the antivirus software: https://github.com/winder/Universal-G-Code-Sender/issues/1237
 
 ### Error message "Assistive Technology not found"
-On KDE Neon 5.16 with OpenJDK 1.8.0_212 a user got the follwing error message (#1267):
+On KDE Neon 5.16 with OpenJDK 1.8.0_212 a user got the follwing error message (https://github.com/winder/Universal-G-Code-Sender/issues/1267):
 
 ```
 ./start.sh 
