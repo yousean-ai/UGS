@@ -1,4 +1,6 @@
-## MacOSX
+Generally all you need is [Java](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) installed on your system and download the binary distribution of Universal Gcode Sender from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). For specific instructions for different operating systems see below.
+
+### MacOSX
 First we need to install Java, download and install it from this page:
 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
@@ -17,7 +19,7 @@ unzip -o ugsplatform.zip
 ./ugsplatform/bin/ugsplatform
 ```
 
-## Linux
+### Linux
 
 Make sure your system is up to date:
 ```bash
@@ -57,8 +59,8 @@ unzip -o ugsplatform.zip
 ./ugsplatform/bin/ugsplatform
 ```
 
-## Raspberry PI (with raspbian)
+### Raspberry PI (with raspbian)
 Refer to this page: [[Raspberry Pi]]
 
-## Windows
+### Windows
 TBD
