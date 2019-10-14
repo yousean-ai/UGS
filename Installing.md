@@ -1,12 +1,11 @@
-Generally all you need is [Java](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) installed on your system and download the binary distribution of Universal Gcode Sender from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). For specific instructions for different operating systems see below.
+Generally all you need is to install [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) or later, then download the binary distribution of Universal Gcode Sender from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). For specific instructions for different operating systems see below.
 
 ### MacOSX
-First we need to install Java, download and install it from this page:
-https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* Download and install Java from [here](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html):
+* Download UGS (either classic or platform edition) from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
+* Unpack the Universal Gcode Sender package and run the start script
 
-Download UGS (either classic or platform edition) from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
-
-Classic version:
+Classic version: 
 ```bash
 unzip -o UniversalGcodeSender.zip -d ugs
 chmod +x ugs/start.sh
@@ -15,7 +14,7 @@ chmod +x ugs/start.sh
 
 Platform version:
 ```
-unzip -o ugsplatform.zip
+unzip -o ugs-platform-app-2.0-SNAPSHOT.zip
 ./ugsplatform/bin/ugsplatform
 ```
 
