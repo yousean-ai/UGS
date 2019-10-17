@@ -1,4 +1,4 @@
-* [Controller](#configuring-the-controller)
+* [Configuring the Controller](#configuring-the-controller)
   * [Firmware settings](#firmware-settings)
   * [Setup Wizard](#setup-wizard)
 * [UGS Platform](#configuring-ugs-platform)
