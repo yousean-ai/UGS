@@ -29,7 +29,7 @@ sudo reboot
 Then we need to install Java, run these commands from the terminal: 
 ```bash
 apt-get update
-apt-get install openjdk-8-jdk
+apt-get install openjdk-11-jdk
 ```
 
 Make sure your system is using the correct JDK:
@@ -38,9 +38,9 @@ java -version
 ```
 
 ```
-java version "1.8.0_65"
-Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
-Java HotSpot(TM) Client VM (build 25.65-b01, mixed mode)
+openjdk 11.0.5 2019-10-15
+OpenJDK Runtime Environment (build 11.0.5....)
+OpenJDK Server VM (build 11.0.5...)
 ```
 
 ### Download and start UGS
