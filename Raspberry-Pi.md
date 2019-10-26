@@ -15,8 +15,8 @@ Configure the video driver:
 sudo raspi-config
 ```
 * Choose "7 Advanced Options"
-* Choose "A6 GL Driver"
-* Choose "G1 GL (Full KMS)"
+* Choose "A7 GL Driver"
+* Choose "G2 GL (Fake KMS)" if you are using a touch screen. Or "G3 GL (Full KMS)" if you are using an external screen.
 * Then Finish and reboot
 
 Remove/Move the old video driver
