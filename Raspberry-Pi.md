@@ -68,11 +68,11 @@ Make sure UGS uses the **JSSC** connection driver, otherwise the connection to t
 ## Building on Raspberry Pi
 Building UGS on a Raspberry Pi is slooow but can be done.
 
-### Install Java
+### Install Java and Maven
 Then we need to install Java, run these commands from the terminal: 
 ```bash
 apt-get update
-apt-get install openjdk-11-jdk
+apt-get install openjdk-11-jdk maven
 ```
 
 Make sure your system is using the correct JDK:
@@ -86,9 +86,18 @@ OpenJDK Runtime Environment (build 11.0.5....)
 OpenJDK Server VM (build 11.0.5...)
 ```
 
+### Download the source for UGS
+
+Download the latest source and unzip it
+```
+wget https://github.com/winder/Universal-G-Code-Sender/archive/master.zip
+unzip -o master.zip 
+```
+
 Due to a limitation in the pendant UI module build script, the software can't be completely built on an RaspberryPi. 
 
 You would need to inactivate the pendant UI module by disabling the profile:
 ```
+cd master
 mvn install -P '!create-pendant-web-ui'
 ```
