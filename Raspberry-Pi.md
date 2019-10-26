@@ -65,6 +65,26 @@ Make sure UGS uses the **JSSC** connection driver, otherwise the connection to t
 ![Connection driver](https://user-images.githubusercontent.com/8962024/40659348-4a279b84-634e-11e8-91f6-19bcc6f0e16e.png)
 
 ## Building on Raspberry Pi
+Building UGS on a Raspberry Pi is slooow but can be done.
+
+### Install Java
+Then we need to install Java, run these commands from the terminal: 
+```bash
+apt-get update
+apt-get install openjdk-11-jdk
+```
+
+Make sure your system is using the correct JDK:
+```bash
+java -version
+```
+
+```
+openjdk 11.0.5 2019-10-15
+OpenJDK Runtime Environment (build 11.0.5....)
+OpenJDK Server VM (build 11.0.5...)
+```
+
 Due to a limitation in the pendant UI module build script, the software can't be completely built on an RaspberryPi. 
 
 You would need to inactivate the pendant UI module by disabling the profile:
