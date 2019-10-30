@@ -5,7 +5,7 @@ There are many awesome G-code senders out there, here we've tried to create a co
 | [UGS Platform](http://winder.github.io/ugs_website/) | L,M,W | G,T,G2      | Java       | GPLv3   | :white_check_mark: | :white_check_mark: |
 | [UGS Classic](http://winder.github.io/ugs_website/)  | L,M,W | G,T         | Java       | GPLv3   | :white_check_mark: | :white_check_mark: |
 | [Grbl Panel](https://github.com/gerritv/Grbl-Panel/) | W     | G           | VB.Net     | MIT     |     |  |
-| [bCNC](https://github.com/vlachoudis/bCNC)           | L,M,W | G           | Python     | ?       |     | :white_check_mark: |
+| [bCNC](https://github.com/vlachoudis/bCNC)           | L,M,W | G           | Python     | GPLv2   |     | :white_check_mark: |
 | [Chilipeppr](http://chilipeppr.com/)                 | L,M,W | G,T         | Javascript | ?       |     | :white_check_mark: |
 | [cnc.js](https://github.com/cncjs/cncjs)             | L,M,W | G,T,G2,S,M  | Javascript | MIT     |     | :white_check_mark: |
 | [Goko](https://goko.fr/)                             | L,M,W | G,T         | Java       | GPLv3   |     |  |
