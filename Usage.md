@@ -6,7 +6,7 @@
 The UGS Platform is the next generation of Universal Gcode Sender. It is built ontop of the Netbeans Platform which allows us to leverage its mature modular framework. This platform allows more features to be added without compromising on code quality, or being bogged down by a home grown framework. The Classic GUI is used as a library, so core features benefit both interfaces.
 
 ## Connecting to the machine
-The first thing you will do after powering up your machine is connecting to your controller hardware using the toolbar at the top of the program.
+The first thing you will do after powering up your machine is connecting to your controller using the toolbar at the top of the program.
 
 Select the correct hardware in the firmware combo box:
 
