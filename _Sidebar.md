@@ -8,6 +8,6 @@
 
 :hammer_and_wrench: [Configuration](Configuration)
 
-:sparkles: [Usage](Usage)
+:star2: [Usage](Usage)
 
 :question: [FAQ and Troubleshooting](Troubleshooting-Overview)
