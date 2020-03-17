@@ -2,10 +2,10 @@
   * [Connecting to the machine](#connecting-to-the-machine)
   * [Digital read-out](#digital-read-out)
 
-## Platform
+# Platform
 The UGS Platform is the next generation of Universal Gcode Sender. It is built ontop of the Netbeans Platform which allows us to leverage its mature modular framework. This platform allows more features to be added without compromising on code quality, or being bogged down by a home grown framework. The Classic GUI is used as a library, so core features benefit both interfaces.
 
-### Connecting to the machine
+## Connecting to the machine
 The first thing you will do after powering up your machine is connecting to your controller hardware using the toolbar at the top of the program.
 
 Select the correct hardware in the firmware combo box:
@@ -25,7 +25,7 @@ Select the correct baud rate for your controller.
 - **GRBL** - version 0.9 or later are using 115200, earlier versions are using 9600.
 - **TinyG/g2core** will adapt to the baud rate you are connecting with so it really doesn't matter.
 
-### Digital read-out
+## Digital read-out
 The Digital read-out (or Controller state) panel displays the current status of your machine such as the work/machine coordinates, machine/spindle speeds and gcode states.
 
 ![Controller state (DRO)](https://winder.github.io/ugs_website/img/guide/platform/controller_state.png)
