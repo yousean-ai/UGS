@@ -79,9 +79,7 @@ TBD
 ## Configuring UGS Classic
 
 ### Configuration files
-The UGS settings (which is also common with the UGS Platform edition) is located in your home directory. 
-* **Windows**: /home/user/ugs
+The UGS settings (which is also common with the UGS Platform edition) is located in your home directory. It contains `UniversalGcodeSender.json` which holds the settings such as: jog feed rates, your macros, your file history and so on. There is also the directory `firmware_config` which contains several configurations for different types firmwares.
+* **Windows**: c:/users/[your username]/.ugs
 * **Mac**: ~/Library/Preferences/ugs
-* **Linux**: ~/ugs 
-
-It contains `UniversalGcodeSender.json` which holds the settings such as: jog feed rates, your macros, your file history and so on. There is also the directory `firmware_config` which contains several configurations for different types firmwares.
+* **Linux**: ~/.ugs 
