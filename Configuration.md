@@ -3,10 +3,11 @@
   * [Setup Wizard](#setup-wizard)
 * [UGS Platform](#configuring-ugs-platform)
   * [Configuration files](#configuration-files)
-  * [Configuring the toolbar](#configuring-the-toolbar)
-  * [Configuring panels and windows](#configuring-panels-and-windows)
-  * [Configuring the visualizer colors](#configuring-the-visualizer-colors)
-  * [Configuring Macros](#configuring-macros)
+  * [Log files](#log-files)
+  * [Toolbar](#configuring-the-toolbar)
+  * [Panels and windows](#configuring-panels-and-windows)
+  * [Visualizer colors](#configuring-the-visualizer-colors)
+  * [Macros](#configuring-macros)
 * [UGS Classic](#configuring-ugs-classic)
   * [Configuration files](#configuration-files-1)
 
@@ -44,11 +45,22 @@ Setting up your controller firmware configuration by hand can be challenging and
 The configuration for UGS Platform is divided into two types; the UGS specific settings and one for the user interface (ex. describing how the different windows should be placed and so on).
 
 The UGS specific settings (which is also common with the UGS Classic edition) is located in your home directory. 
-* **Windows**: /home/user/ugs
-* **Mac**: ~/Library/Preferences/ugs
-* **Linux**: ~/ugs 
-
 It contains `UniversalGcodeSender.json` which holds the settings such as: jog feed rates, your macros, your file history and so on. There is also the directory `firmware_config` which contains several configurations for different types firmwares.
+* **Windows**: c:/users/[your username]/.ugs
+* **Mac**: ~/Library/Preferences/ugs
+* **Linux**: ~/.ugs 
+
+The UGS platform settings is located in your home directory. These settings contains the positions of the windows, and which modules you have loaded:
+* **Windows**: C:/users/[your username>]/.ugsplatform
+* **Mac**: ~/Library/Preferences/ugsplatform
+* **Linux**: ~/.ugsplatform
+
+### Log files
+When reporting an error or bug to us it's often helpful to trace the error in the log file. These are located here:
+* **Windows 7 and higher**: C:/Users/[your username>]/AppData/Roaming/ugsplatform/2.0-SNAPSHOT/var/log/messages.log
+* **Windows XP**: C:/Documents and Settings/[your username>]/Application Data/ugsplatform/2.0-SNAPSHOT/var/log/messages.log
+* **Mac**: ~/Library/Application Support/ugsplatform/2.0-SNAPSHOT/var/log/messages.log
+* **Linux**: ~/.ugsplatform/2.0-SNAPSHOT/var/log/messages.log
 
 ### Configuring the toolbar
 The toolbar can be configured by right clicking in the toolbar and choose `Customize`. From there new icons can be added and removed. New toolbars can be added or hidden.
