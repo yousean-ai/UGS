@@ -1,5 +1,6 @@
+Different controllers and their versions are supported differently in UGS. We strive to make the user experience similar for different hardware. This is a list of some of the basic features and how they are supported.
 
-| Controller     | Streaming file | GCode states | Mco | Wco | Jogging | Homing | Settings | Overrides |
+| Controller     | File | G-states | Mco | Wco | Jogging | Homing | Settings | Overrides |
 | -------------- |----------------|--------------|-----|-----|---------|--------|----------|-----------|
 | GRBL 1.1+      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | GRBL 0.9       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
@@ -9,8 +10,8 @@
 | Smoothieware   |  |  |  |  |  |  |  |  |
 
 * **Controller** - the controller firmware and its version number
-* **Streaming file** - if streaming a file, pausing and stopping is supported
-* **GCode** - the controller is a big state machine storing a bunch of parameters such as current units (mm/inch), work offsets, coordinate system. To visualise these in UGS we need to store the same states.
+* **File** - if streaming a file, pausing and stopping is supported
+* **G-states** - the controller is a big state machine storing a bunch of parameters such as current units (mm/inch), work offsets, coordinate system. To visualise these properly in UGS we need to store the same states. This tells if we support storing the Gcode state for the controller.
 * **Mco** - Machine coordinate system is coordinates the absolute coordinates of the machine.
 * **Wco** - Work coordinate system or offset can be configured by the user to have a relative coordinate space to work in. These are needed for positioning the tools around the material.
 * **Jogging** - If manually moving the machine by stepping/jogging is supported.
