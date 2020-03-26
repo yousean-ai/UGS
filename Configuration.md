@@ -59,7 +59,7 @@ The UGS platform settings is located in your home directory. These settings cont
 When creating a issuer it's often helpful for us to trace the error in your log file. These are located here:
 * **Windows 7 and higher**: C:/Users/[your username>]/AppData/Roaming/ugsplatform/2.0-SNAPSHOT/var/log/messages.log
 * **Windows XP**: C:/Documents and Settings/[your username>]/Application Data/ugsplatform/2.0-SNAPSHOT/var/log/messages.log
-* **Mac**: ~/Library/Application Support/ugsplatform/2.0-SNAPSHOT/var/log/messages.log
+* **Mac**: ~/Library/Application Support/ugsplatform/2.0-SNAPSHOT/dev/var/log/messages.log
 * **Linux**: ~/.ugsplatform/2.0-SNAPSHOT/var/log/messages.log
 
 ### Configuring the toolbar
