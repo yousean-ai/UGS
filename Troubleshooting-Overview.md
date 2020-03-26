@@ -33,7 +33,7 @@ The exact path varies between the major operating systems because of where they 
 Currently UGS Platform requires Java 8. More recent versions of Java may or may not work. Ticket [#1151](https://github.com/winder/Universal-G-Code-Sender/issues/1151) shows how to change Java versions for several operating systems.
 
 ### Antivirus software
-There has been a case where the antivirus software caused a problem with a popup that wasn't able to close. The issue was resolved by disabling the antivirus software: https://github.com/winder/Universal-G-Code-Sender/issues/1237
+There has been cases where the antivirus software caused a problem with a popup that wasn't able to close. The issue was resolved by disabling the antivirus software: https://github.com/winder/Universal-G-Code-Sender/issues/1237
 
 Errors have been reported with Antivirus softwares:
 * Comodo
