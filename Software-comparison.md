@@ -16,7 +16,7 @@ There are many awesome G-code senders out there, here we've tried to create a co
 | [Pronterface](http://www.pronterface.com/)           | L,M,W | M           | Python     | GPLv3   |     |  |
 | [UCCNC](https://cncdrive.com/UCCNC.html)             | W     | ?           | ?          | ?       |     |  |
 | [g2coregui](https://github.com/talpadk/g2coregui)    | L,M?  | G2          | Python     | ?       |     |  |
-[ [GrblGru](https://www.grblgru.com/)                  | W     | G,T,G2      | ?          | ?       |     |  |
+| [GrblGru](https://www.grblgru.com/)                  | W     | G,T,G2      | ?          | ?       |     |  |
 
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
