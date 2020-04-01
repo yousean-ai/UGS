@@ -8,7 +8,7 @@ There are many awesome G-code senders out there, here we've tried to create a co
 | [bCNC](https://github.com/vlachoudis/bCNC)           | L,M,W | G           | Python     | GPLv2   |     | :heavy_check_mark: |
 | [Chilipeppr](http://chilipeppr.com/)                 | L,M,W | G,T         | Javascript | GPLv2   |     | :heavy_check_mark: |
 | [cnc.js](https://github.com/cncjs/cncjs)             | L,M,W | G,T,G2,S,M  | Javascript | MIT     |     | :heavy_check_mark: |
-| [Goko](https://goko.fr/)                             | L,M,W | G,T         | Java       | GPLv3   |     |  |
+| [Goko](https://goko.fr/)                             | L,M,W | G,T,G2      | Java       | GPLv3   |     |  |
 | [CNC-GCode-Controller](https://github.com/pknoe3lh/cncgcodecontroller) | W?    | M | Java | MIT   |     |  |
 | [SourceRabbit](https://github.com/nsiatras/sourcerabbit-gcode-sender)  | L,M,W | G | Java | GPLv2 |     |  |
 | [Candle](https://github.com/Denvi/Candle)            | L,W   | G           | C++        | GPLv3   |     |  |
