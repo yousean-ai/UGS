@@ -71,7 +71,7 @@ chmod +x ugs/start.sh
 ```
 
 ## Building on Raspberry Pi
-Building UGS on a Raspberry Pi is slooow but can be done.
+Building UGS on a Raspberry Pi is slow but is possible. But there is a limitation in the pendant UI module build script which can't be built on Raspberry Pi and needs to be disabled. Follow the instructions as follows. 
 
 ### Install Java and Maven
 Then we need to install Java, run these commands from the terminal: 
@@ -99,9 +99,7 @@ wget https://github.com/winder/Universal-G-Code-Sender/archive/master.zip
 unzip -o master.zip 
 ```
 
-Due to a limitation in the pendant UI module build script, the software can't be completely built on an RaspberryPi. 
-
-You would need to inactivate the pendant UI module by disabling the profile:
+Build without the pendant UI module by disabling the profile:
 ```
 cd master
 mvn install -P '!create-pendant-web-ui'
