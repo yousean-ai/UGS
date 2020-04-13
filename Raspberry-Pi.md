@@ -1,6 +1,5 @@
 * [Installing on a Raspberry Pi](#installing-on-a-raspberry-pi)
   * [Activate OpenGL driver](#activate-opengl-driver)
-  * [Download and start](#download-and-start)
   * [Download and start UGS Platform](#download-and-start-ugs-platform)
   * [Download and start UGS Classic](#download-and-start-ugs-classic)
 * [Building on Raspberry Pi](#building-on-raspberry-pi)
@@ -35,9 +34,7 @@ sudo mv /opt/vc /opt/vc.old
 sudo reboot
 ```
 
-### Download and start
-
-#### Download and start UGS Platform
+### Download and start UGS Platform
 
 Download UGS Platform for RaspberryPI from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
 
@@ -51,7 +48,7 @@ Open the preferences and change the connection driver to **JSSC**, otherwise the
 ![Connection driver](https://user-images.githubusercontent.com/8962024/40659348-4a279b84-634e-11e8-91f6-19bcc6f0e16e.png)
 
 
-#### Download and start UGS Classic
+### Download and start UGS Classic
 
 Start with installing Java, run these commands from the terminal: 
 ```bash
