@@ -26,7 +26,23 @@ sudo mv /opt/vc /opt/vc.old
 sudo reboot
 ```
 
-### Download and start UGS Classic
+### Download and start
+
+#### Download and start UGS Platform
+
+Download UGS Platform for RaspberryPI from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
+
+```
+unzip -o ugsplatform.zip
+./ugsplatform/bin/ugsplatform
+```
+
+Open the preferences and change the connection driver to **JSSC**, otherwise the connection to the CNC controller will be unpredictable.
+
+![Connection driver](https://user-images.githubusercontent.com/8962024/40659348-4a279b84-634e-11e8-91f6-19bcc6f0e16e.png)
+
+
+#### Download and start UGS Classic
 
 Start with installing Java, run these commands from the terminal: 
 ```bash
@@ -53,20 +69,6 @@ unzip -o UniversalGcodeSender.zip -d ugs
 chmod +x ugs/start.sh
 ./ugs/start.sh
 ```
-
-### Download and start UGS Platform
-
-Download UGS Platform for RaspberryPI from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
-
-```
-unzip -o ugsplatform.zip
-./ugsplatform/bin/ugsplatform
-```
-
-### Change the connection driver
-Make sure UGS uses the **JSSC** connection driver, otherwise the connection to the CNC controller will be unpredictable.
-
-![Connection driver](https://user-images.githubusercontent.com/8962024/40659348-4a279b84-634e-11e8-91f6-19bcc6f0e16e.png)
 
 ## Building on Raspberry Pi
 Building UGS on a Raspberry Pi is slooow but can be done.
