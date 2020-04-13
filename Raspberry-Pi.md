@@ -76,6 +76,10 @@ chmod +x ugs/start.sh
 ./ugs/start.sh
 ```
 
+Open the preferences and change the connection driver to JSSC, otherwise the connection to the CNC controller will be unpredictable.
+
+
+
 ## Building on Raspberry Pi
 Building UGS on a Raspberry Pi is slow but is possible. But there is a limitation in the pendant UI module build script which can't be built on Raspberry Pi and needs to be disabled. Follow the instructions as follows. 
 
