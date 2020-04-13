@@ -1,3 +1,12 @@
+* [Installing on a Raspberry Pi](#installing-on-a-raspberry-pi)
+  * [Activate OpenGL driver](#activate-opengl-driver)
+  * [Download and start](#download-and-start)
+  * [Download and start UGS Platform](#download-and-start-ugs-platform)
+  * [Download and start UGS Classic](#download-and-start-ugs-classic)
+* [Building on Raspberry Pi](#building-on-raspberry-pi)
+  * [Install Java and Maven](#install-java-and-maven)
+  * [Download the source and build](#download-the-source-and-build)
+
 ## Installing on a Raspberry Pi
 As of version 1.0.6 Universal Gcode Sender should work out of the box on Raspberry Pi running [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) (just a couple of tweaks).
 
@@ -91,7 +100,7 @@ OpenJDK Runtime Environment (build 11.0.5....)
 OpenJDK Server VM (build 11.0.5...)
 ```
 
-### Download the source for UGS
+### Download the source and build
 
 Download the latest source and unzip it
 ```
