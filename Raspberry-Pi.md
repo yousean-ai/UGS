@@ -26,8 +26,9 @@ sudo mv /opt/vc /opt/vc.old
 sudo reboot
 ```
 
-### Install Java
-Then we need to install Java, run these commands from the terminal: 
+### Download and start UGS Classic
+
+Start with installing Java, run these commands from the terminal: 
 ```bash
 apt-get update
 apt-get install openjdk-11-jdk
@@ -44,17 +45,19 @@ OpenJDK Runtime Environment (build 11.0.5....)
 OpenJDK Server VM (build 11.0.5...)
 ```
 
-### Download and start UGS
-Download UGS (either classic or platform edition) from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
+Download UGS classic from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
 
-Classic version:
+Unpack it:
 ```bash
 unzip -o UniversalGcodeSender.zip -d ugs
 chmod +x ugs/start.sh
 ./ugs/start.sh
 ```
 
-Platform version:
+### Download and start UGS Platform
+
+Download UGS Platform for RaspberryPI from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
+
 ```
 unzip -o ugsplatform.zip
 ./ugsplatform/bin/ugsplatform
