@@ -63,7 +63,7 @@ OpenJDK Server VM (build 11.0.5...)
 
 Download UGS classic from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
 
-Unpack it:
+Unpack it and start:
 ```bash
 unzip -o UniversalGcodeSender.zip -d ugs
 chmod +x ugs/start.sh
