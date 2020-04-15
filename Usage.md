@@ -1,6 +1,7 @@
 * [Platform](#platform)
   * [Connecting to the machine](#connecting-to-the-machine)
   * [Digital read-out](#digital-read-out)
+  * [Gamepad and Joystick](#gamepad-and-joystick)
 
 # Platform
 The UGS Platform is the next generation of Universal Gcode Sender. It is built ontop of the Netbeans Platform which allows us to leverage its mature modular framework. This platform allows more features to be added without compromising on code quality, or being bogged down by a home grown framework. The Classic GUI is used as a library, so core features benefit both interfaces.
@@ -37,3 +38,43 @@ The Digital read-out (or Controller state) panel displays the current status of 
 * Shows the current feed rate and spindle speed
 * Shows the current GCode state (eg. the units currently being used G20/G21)
 * Shows a alarm with the triggered limit switches
+
+## Gamepad and Joystick
+
+Gamepads and joysticks are supported in UGS Platform. Connect your controller device and go to `Preferences -> UGS -> Joystick` and choose `Activate joystick`. If you now press your controller device inputs it will light up green. You can change any input mapping to an action in UGS:
+
+<img alt="Gamepad settings" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/gamepad-settings.png" width="500"/>
+
+
+For the analog controls there is also a slider which will allow you to set a zero offset threshold. This is useful when you have a controller device input that doesn't return a zero value when not being touched. 
+
+<img alt="Gamepad settings zero threshold" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/gamepad-settings-zero.png" width="300"/>
+
+
+These are the available buttons and their default mappings:
+
+![Gamepad illustration](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/gamepad.png)
+
+| Button    | Description   | Default mapping |
+| --------- | ------------- | --------------- |
+| A         |               | Z-              |
+| B         |               |                 |
+| X         |               |                 |
+| Y         |               | Z+              |
+| Back      |               | Stop            |
+| Select    |               |                 |
+| Start     |               | Start           |
+| L1        |               | Divide jog feed rate |
+| L2        | Analog button |
+| L3        | Digital button|
+| R1        |               | Multiply jog feed rate |
+| R2        | Analog button | |
+| R3        | Digital button| |
+| Pad up    |               | Y+ |
+| Pad down  |               | Y- |
+| Pad left  |               | X- |
+| Pad right |               | X+ |
+| Left stick X | Analog button | Analog jog X |
+| Left stick Y | Analog button | Analog jog Y |
+| Right stick X | Analog button |             |
+| Right stick Y | Analog button | Analog jog Z |
