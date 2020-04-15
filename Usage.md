@@ -47,13 +47,13 @@ Connect your controller device and go to `Preferences -> UGS -> Joystick` and ch
 
 <img alt="Gamepad settings" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/gamepad-settings.png" width="500"/>
 
-
-For the analog controls there is also a slider which will allow you to set a zero offset threshold. This is useful when you have a controller device input that doesn't return a zero value when not being touched. 
+### Analog controls
+For the analog controls there is a setting which will allow you to set a zero offset threshold. This is useful when you have a controller device input that doesn't return a zero value when not being touched. For some controllers the axises are inverted which can be fixed by enabling the `Reverse`-checkbox.
 
 <img alt="Gamepad settings zero threshold" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/gamepad-settings-zero.png" width="300"/>
 
-
-These are the available buttons and their default mappings:
+### Gamepad layout
+Different gamepads have slightly different layouts. This is an example of how the buttons are placed and a table with the buttons and their default mapping. Please test your controller in the settings dialog before using.
 
 ![Gamepad illustration](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/gamepad.png)
 
