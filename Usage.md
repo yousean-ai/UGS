@@ -41,7 +41,9 @@ The Digital read-out (or Controller state) panel displays the current status of 
 
 ## Gamepad and Joystick
 
-Gamepads and joysticks are supported in UGS Platform. Connect your controller device and go to `Preferences -> UGS -> Joystick` and choose `Activate joystick`. If you now press your controller device inputs it will light up green. You can change any input mapping to an action in UGS:
+Gamepads and joysticks are supported in UGS Platform. Note that in MacOSX you need a special driver to use a gamepad: https://github.com/360Controller/360Controller.
+
+Connect your controller device and go to `Preferences -> UGS -> Joystick` and choose `Activate joystick`. If you now press your controller device inputs they will light up green in the settings screen. You can change any input mapping to an action in UGS:
 
 <img alt="Gamepad settings" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/gamepad-settings.png" width="500"/>
 
