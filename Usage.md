@@ -1,6 +1,7 @@
 * [Platform](#platform)
   * [Connecting to the machine](#connecting-to-the-machine)
   * [Digital read-out](#digital-read-out)
+  * [GCode Editor](#gcode-editor)
   * [Gamepad and Joystick](#gamepad-and-joystick)
 
 # Platform
@@ -38,6 +39,20 @@ The Digital read-out (or Controller state) panel displays the current status of 
 * Shows the current feed rate and spindle speed
 * Shows the current GCode state (eg. the units currently being used G20/G21)
 * Shows a alarm with the triggered limit switches
+
+## GCode Editor
+
+UGS has a built in editor that allows you to open and edit a GCode file:
+
+![Open editor](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-open.gif)
+
+The editor window can be moved around and changes to the gcode file can be visualized directly in the editor window. The selected line in the editor will also be highlighted in the visualizer window.
+
+![Move editor window](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-with-visualizer.gif)
+
+When connected to a controller it can also highlight and display warnings for gcode commands that may not be compatible with the current controller. It will also highlight commands that contains errors. 
+
+![GCode compatibility with connected controller](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-syntax-highlight.gif)
 
 ## Gamepad and Joystick
 
