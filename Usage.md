@@ -46,7 +46,7 @@ UGS has a built in editor that allows you to open and edit a GCode file:
 
 ![Open editor](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-open.gif)
 
-The editor window can be moved around and changes to the gcode file can be visualized directly in the editor window. The selected line in the editor will also be highlighted in the visualizer window.
+The editor window can be moved around and changes to the gcode file can be viewed directly in the visualizer window. The selected lines in the editor will also be highlighted.
 
 ![Move editor window](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-with-visualizer.gif)
 
