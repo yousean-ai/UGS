@@ -4,7 +4,6 @@ There are many awesome G-code senders out there, here we've tried to create a co
 | ---------------------------------------------------- | ------| ----------- | ---------- | ------- | --- | ----- 
 | [UGS Platform](http://winder.github.io/ugs_website/) | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: |
 | [UGS Classic](http://winder.github.io/ugs_website/)  | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: |
-| [Grbl Panel](https://github.com/gerritv/Grbl-Panel/) | W     | G           | VB.Net     | MIT     |     |  |
 | [bCNC](https://github.com/vlachoudis/bCNC)           | L,M,W | G           | Python     | GPLv2   |     | :heavy_check_mark: |
 | [Chilipeppr](http://chilipeppr.com/)                 | L,M,W | G,T         | Javascript | GPLv2   |     | :heavy_check_mark: |
 | [cnc.js](https://github.com/cncjs/cncjs)             | L,M,W | G,T,G2,S,M  | Javascript | MIT     |     | :heavy_check_mark: |
@@ -17,6 +16,7 @@ There are many awesome G-code senders out there, here we've tried to create a co
 | [UCCNC](https://cncdrive.com/UCCNC.html)             | W     | ?           | ?          | ?       |     |  |
 | [g2coregui](https://github.com/talpadk/g2coregui)    | L,M?  | G2          | Python     | ?       |     |  |
 | [GrblGru](https://www.grblgru.com/)                  | W     | G,T,G2      | ?          | ?       |     |  |
+| [Grbl Panel](https://github.com/gerritv/Grbl-Panel/) | W     | G           | VB.Net     | MIT     |     |  |
 
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
