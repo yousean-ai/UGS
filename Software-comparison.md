@@ -7,7 +7,7 @@ different softwares and their support for different file formats.
 | [Fusion 360](https://www.autodesk.se/products/fusion-360/) | M,W   | Commercial  | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [FreeCad](https://www.freecadweb.org/)                     | M,W,L | LGPLv2+     | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [Inventables Easel](http://easel.inventables.com/)         | Web   | Free to use | G                     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: |
-| [Kiri:Moto](https://grid.space/kiri/)                      | Web   | Free to use |                       | | :heavy_check_mark: | :heavy_check_mark: | |
+| [Kiri:Moto](https://grid.space/kiri/)                      | Web   | MIT         |                       | | :heavy_check_mark: | :heavy_check_mark: | |
       
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
