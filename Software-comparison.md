@@ -5,6 +5,7 @@ different softwares and their support for different file formats.
 | Name                                                       | OS    | Supported controllers | DWG | STL | Gcode | SVG |
 | ---------------------------------------------------------- | ------| --------------------- | --- | --- | ----- | --- |
 | [Fusion 360](https://www.autodesk.se/products/fusion-360/) | M,W   | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+| [FreeCad](https://www.freecadweb.org/)                     | M,W,L | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [Inventables Easel](http://easel.inventables.com/)         | Web   | G                     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: |
 | [Kiri:Moto](https://grid.space/kiri/)                      | Web   |                       | | :heavy_check_mark: | :heavy_check_mark: | |
 
