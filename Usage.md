@@ -1,4 +1,5 @@
 * [Platform](#platform)
+  * [Resizing windows](#resizing-windows)
   * [Connecting to the machine](#connecting-to-the-machine)
   * [Digital read-out](#digital-read-out)
   * [GCode Editor](#gcode-editor)
