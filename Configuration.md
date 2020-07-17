@@ -68,7 +68,9 @@ The toolbar can be configured by right clicking in the toolbar and choose `Custo
 ![Toolbar customization](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/customize_toolbar.gif)
 
 ### Configuring panels and windows
-TBD
+All panels and windows can be resized and moved to different locations by dragging and dropping them:
+
+![Resizing windows](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/2.0_platform_resizing_windows.gif)
 
 ### Configuring the visualizer colors
 TBD
