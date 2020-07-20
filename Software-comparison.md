@@ -10,7 +10,6 @@ different softwares and their support for different file formats.
 | [Kiri:Moto](https://grid.space/kiri/)                      | Web   | MIT         |                       | | :heavy_check_mark: | :heavy_check_mark: | |
 | [Carbide Create](https://carbide3d.com/carbidecreate/)     |       |             |                       | | | | |
 | MakerCAM                                                   |       |             |                       | | | | |
-| MakerCAM                                                   |       |             |                       | | | | |
 | F-Engrave                                                  |       |             |                       | | | | |
 | EstlCAM                                                    |       |             |                       | | | | |
 | CamBAM                                                     |       |             |                       | | | | |
