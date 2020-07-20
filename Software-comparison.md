@@ -33,6 +33,7 @@ A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2
 | [g2coregui](https://github.com/talpadk/g2coregui)    | L,M?  | G2          | Python     | ?       |     |  |
 | [GrblGru](https://www.grblgru.com/)                  | W     | G,T,G2      | ?          | ?       |     |  |
 | [Grbl Panel](https://github.com/gerritv/Grbl-Panel/) | W     | G           | VB.Net     | MIT     |     |  |
+| [Planet CNC](https://planet-cnc.com/software/)       | W,M,L |             | ?          | ?       |     |  |
 
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
