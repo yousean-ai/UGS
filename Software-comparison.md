@@ -17,7 +17,7 @@ different softwares and their support for different file formats.
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
 
-## Gcode Senders
+## Gcode sender
 
 A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2core, Smoothieware or Marlin) and is able to stream a gcode file to it. There are many different awesome senders out there, here we've tried to create a comparison table. Please feel free to correct any errors.
 
@@ -43,3 +43,14 @@ A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
 _* **CLI:** Command Line Interface for interacting with the software without a GUI_
+
+
+## CNC controllers
+
+| Name                                                         | License | Axises | 
+| ------------------------------------------------------------ | ------- | ------ |
+| [GRBL](https://github.com/gnea/grbl)                         | GPLv3   | 3      |
+| [TinyG](https://github.com/synthetos/TinyG)                  | GPLv2   | 4      |
+| [g2core](https://github.com/synthetos/g2)                    | GPLv2   | 6      |
+| [Smoothieware](https://github.com/Smoothieware/Smoothieware) | GPLv3   | 4      |
+| [Marlin](https://github.com/MarlinFirmware/Marlin)           | GPLv3   | 3      |
