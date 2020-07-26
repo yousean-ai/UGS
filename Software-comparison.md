@@ -2,15 +2,15 @@
 Gcode is a CNC machine programming language. To generate such instructions you could write the code yourself ([code reference](http://linuxcnc.org/docs/html/gcode.html)) or use a CAM-software which generates it from a 3D or 2D model. Here is a list with 
 different softwares and their support for different file formats.
 
-| Name                                                       | OS    | License     | Supported controllers | DWG | STL | Gcode | SVG |
-| ---------------------------------------------------------- | ------| ----------- | --------------------- | --- | --- | ----- | --- |
-| [Fusion 360](https://www.autodesk.se/products/fusion-360/) | M,W   | Commercial  | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-| [FreeCad](https://www.freecadweb.org/)                     | M,W,L | LGPLv2+     | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-| [Inventables Easel](http://easel.inventables.com/)         | Web   | Free to use | G                     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: |
-| [Kiri:Moto](https://grid.space/kiri/)                      | Web   | MIT         |                       | | :heavy_check_mark: | :heavy_check_mark: | |
-| [Carbide Create](https://carbide3d.com/carbidecreate/)     |       |             |                       | | | | |
-| MakerCAM                                                   |       |             |                       | | | | |
-| F-Engrave                                                  |       |             |                       | | | | |
+| Name                                                           | OS    | License     | Supported controllers | DWG | STL | Gcode | SVG |
+| -------------------------------------------------------------- | ------| ----------- | --------------------- | --- | --- | ----- | --- |
+| [Fusion 360](https://www.autodesk.se/products/fusion-360/)     | M,W   | Commercial  | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+| [FreeCad](https://www.freecadweb.org/)                         | M,W,L | LGPLv2+     | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+| [Inventables Easel](http://easel.inventables.com/)             | Web   | Free to use | G                     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: |
+| [Kiri:Moto](https://grid.space/kiri/)                          | Web   | MIT         |                       | | :heavy_check_mark: | :heavy_check_mark: | |
+| [Carbide Create](https://carbide3d.com/carbidecreate/)         |       |             |                       | | | | |
+| MakerCAM                                                       |       |             |                       | | | | |
+| [F-Engrave](https://www.scorchworks.com/Fengrave/fengrave.html)| W     | ?           |                       | | | | |
 | EstlCAM                                                    |       |             |                       | | | | |
 | CamBAM                                                     |       |             |                       | | | | |
       
