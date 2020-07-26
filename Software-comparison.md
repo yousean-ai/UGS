@@ -60,4 +60,4 @@ _* **CLI:** Command Line Interface for interacting with the software without a G
 | [Smoothieware](https://github.com/Smoothieware/Smoothieware) | GPLv3   | 4      | |
 | [Marlin](https://github.com/MarlinFirmware/Marlin)           | GPLv3   | 3      | |
 
-_* **Overrides:** Ability to adjust feed rate, spindle speed in runtime
+_* **Overrides** Ability to adjust feed rate, spindle speed in runtime_ <br/>
