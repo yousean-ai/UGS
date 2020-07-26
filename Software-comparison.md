@@ -1,7 +1,7 @@
 To be able to build your own CNC machine you need three softwares for your tool chain:
-1. CAD/CAM - A software on your computer to draw or design the model and generate GCode files with machine code.
-2. Gcode sender - A software that will connect to your hardware controller and send files or commands to it.
-3. CNC controller - A firmware and hardware that will control the motion of the stepper motors based on Gcode commands
+1. (CAD/CAM)[#cadcam] - A software on your computer to draw or design the model and generate GCode files with machine code.
+2. (Gcode sender)[#gcode-sender] - A software that will connect to your hardware controller and send files or commands to it.
+3. (CNC controller)[#cnc-controller] - A firmware and hardware that will control the motion of the stepper motors based on Gcode commands
 
 ## CAD/CAM
 Gcode is a CNC machine programming language. To generate such instructions you could write the code yourself ([code reference](http://linuxcnc.org/docs/html/gcode.html)) or use a CAD/CAM-software which generates it from a 3D or 2D model. Here is a list with 
