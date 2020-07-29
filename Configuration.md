@@ -78,6 +78,16 @@ TBD
 ### Configuring Macros
 TBD
 
+### Using dark theme
+There is a dark theme (Look and Feel) in UGS that can be enabled through the settings:
+* Open the preferences:<br/>
+![Open preferences](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/dark_laf1.png)
+* Go to `Apperance -> Look and feel` and choose *FlatLaf Dark*:<br/>
+![Select FlatLaf dark](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/dark_laf2.png)
+* Restart and the dark themed UGS is used:<br/>
+![UGS with FlatLaf dark](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/dark_laf3.png)
+
+
 ## Configuring UGS Classic
 
 ### Configuration files
