@@ -8,6 +8,7 @@
   * [Panels and windows](#configuring-panels-and-windows)
   * [Visualizer colors](#configuring-the-visualizer-colors)
   * [Macros](#configuring-macros)
+  * [Using dark theme](#using-dark-theme)
 * [UGS Classic](#configuring-ugs-classic)
   * [Configuration files](#configuration-files-1)
 
