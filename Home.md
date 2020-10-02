@@ -14,7 +14,7 @@ Universal Gcode Sender is a full featured gcode sender platform for Windows/Linu
 
 ***
 
-[![Language](http://winder.github.io/ugs_website/img/shields/Language-Java-brightgreen.svg)](https://java.com/en/download/manual.jsp)
+[![Language](http://winder.github.io/ugs_website/img/shields/Language-Java-brightgreen.svg)](https://adoptopenjdk.net/)
 [![License](http://winder.github.io/ugs_website/img/shields/License-GPLv3-blue.svg)](http://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 [![Build Status](https://travis-ci.org/winder/Universal-G-Code-Sender.svg?branch=master)](https://travis-ci.org/winder/Universal-G-Code-Sender)
 [![Last commit](https://img.shields.io/github/last-commit/winder/Universal-G-Code-Sender.svg?maxAge=1800)](https://github.com/winder/Universal-G-Code-Sender/commits/master)
