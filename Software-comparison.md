@@ -46,6 +46,7 @@ A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2
 | [Grbl Panel](https://github.com/gerritv/Grbl-Panel/) | W     | G           | VB.Net     | MIT     |     |  | |
 | [Planet CNC](https://planet-cnc.com/software/)       | W,M,L |             | ?          | ?       |     |  | |
 | [Grbl-GCode-Sender](https://github.com/terjeio/Grbl-GCode-Sender) | W | G  | C#         |  BSD-3-Clause License | | | |
+| [FabMo](http://gofabmo.org/)                         | W,M,L | G2          | Javascript | Apache-2.0 |  |  | |
 
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
