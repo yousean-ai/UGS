@@ -1,5 +1,6 @@
 * [UGS Platform](#ugs-platform)
   * [Resizing windows](#resizing-windows)
+  * [Toolbox](#toolbox)
   * [Connecting to the machine](#connecting-to-the-machine)
   * [Digital read-out](#digital-read-out)
   * [GCode Editor](#gcode-editor)
@@ -13,6 +14,10 @@ All windows and modules can be resized and moved to different locations.
 
 ![Resizing windows](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/2.0_platform_resizing_windows.gif)
 
+## Toolbox
+The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use available.
+
+![Toolbar](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/toolbar.gif)
 
 ## Connecting to the machine
 The first thing you will do after powering up your machine is connecting to your controller using the toolbar at the top of the program.
