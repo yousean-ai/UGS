@@ -17,7 +17,7 @@ All windows and modules can be resized and moved to different locations.
 ## Toolbox
 The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use available.
 
-![Toolbar](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/toolbar.gif)
+![Toolbar](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/toolbox.gif)
 
 ## Connecting to the machine
 The first thing you will do after powering up your machine is connecting to your controller using the toolbar at the top of the program.
