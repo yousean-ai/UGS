@@ -58,8 +58,8 @@ _* **CLI:** Command Line Interface for interacting with the software without a G
 | Name                                                         | License | Axises | Overrides |
 | ------------------------------------------------------------ | ------- | ------ | --------- |
 | [GRBL](https://github.com/gnea/grbl)                         | GPLv3   | 3      | :heavy_check_mark: |
-| [TinyG](https://github.com/synthetos/TinyG)                  | GPLv2   | 4      | |
-| [g2core](https://github.com/synthetos/g2)                    | GPLv2   | 6      | |
+| [TinyG](https://github.com/synthetos/TinyG)                  | GPLv2   | 4      | :x: |
+| [g2core](https://github.com/synthetos/g2)                    | GPLv2   | 6      | :heavy_check_mark: |
 | [Smoothieware](https://github.com/Smoothieware/Smoothieware) | GPLv3   | 4      | |
 | [Marlin](https://github.com/MarlinFirmware/Marlin)           | GPLv3   | 3      | |
 
