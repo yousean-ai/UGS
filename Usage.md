@@ -15,7 +15,7 @@ All windows and modules can be resized and moved to different locations.
 ![Resizing windows](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/2.0_platform_resizing_windows.gif)
 
 ## Toolbox
-The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use available. If an action can't be used at the moment it will be greyed out, such as when no machine is connected or a file loaded.
+The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use are available. If an action can't be used at the moment it will be greyed out, ie when no machine is connected or a file loaded.
 
 ![Toolbar](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/toolbox.gif)
 
