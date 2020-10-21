@@ -30,13 +30,13 @@ A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2
 | Name                                                 | OS    | Controllers | Language   | License | CLI | WebUI | Gamepad | Overrides |
 | ---------------------------------------------------- | ------| ----------- | ---------- | ------- | --- | ----- | ------- | --------- |
 | [UGS Platform](http://winder.github.io/ugs_website/) | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| [UGS Classic](http://winder.github.io/ugs_website/)  | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: | | |
+| [UGS Classic](http://winder.github.io/ugs_website/)  | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: |
 | [bCNC](https://github.com/vlachoudis/bCNC)           | L,M,W | G,S         | Python     | GPLv2   |     | :heavy_check_mark: | | |
 | [Chilipeppr](http://chilipeppr.com/)                 | L,M,W | G,T         | Javascript | GPLv2   |     | :heavy_check_mark: | | |
 | [cnc.js](https://github.com/cncjs/cncjs)             | L,M,W | G,T,G2,S,M  | Javascript | MIT     |     | :heavy_check_mark: | | |
 | [Goko](https://goko.fr/)                             | L,M,W | G,T,G2      | Java       | GPLv3   |     |  | | |
 | [CNC-GCode-Controller](https://github.com/pknoe3lh/cncgcodecontroller) | W?    | M | Java | MIT   |     |  | | |
-| [SourceRabbit](https://github.com/nsiatras/sourcerabbit-gcode-sender)  | L,M,W | G | Java | GPLv2 |     |  | | |
+| [SourceRabbit](https://github.com/nsiatras/sourcerabbit-gcode-sender)  | L,M,W | G | Java | GPLv2 | :x: | :x: | :x: | :x: |
 | [Candle](https://github.com/Denvi/Candle)            | L,W   | G           | C++        | GPLv3   |     |  | | |
 | [GRBLWeb](http://xyzbots.com/grblweb.html)           | L,M,W | G           | Javascript | AGPL    |     | :heavy_check_mark: | | |
 | [Pronterface](http://www.pronterface.com/)           | L,M,W | M           | Python     | GPLv3   |     |  | | |
