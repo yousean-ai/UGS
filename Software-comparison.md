@@ -13,7 +13,7 @@ different softwares and their support for different file formats.
 | [Fusion 360](https://www.autodesk.se/products/fusion-360/)     | M,W   | Commercial  | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [FreeCad](https://www.freecadweb.org/)                         | M,W,L | LGPLv2+     | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [Inventables Easel](http://easel.inventables.com/)             | Web   | Free to use | G                     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: |
-| [Kiri:Moto](https://grid.space/kiri/)                          | Web   | MIT         |                       | | :heavy_check_mark: | :heavy_check_mark: | |
+| [Kiri:Moto](https://grid.space/kiri/)                          | Web   | MIT         |                       | | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [Carbide Create](https://carbide3d.com/carbidecreate/)         |       |             |                       | | | | |
 | MakerCAM                                                       |       |             |                       | | | | |
 | [F-Engrave](https://www.scorchworks.com/Fengrave/fengrave.html)| W     | ?           |                       | | | | |
@@ -47,6 +47,7 @@ A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2
 | [Planet CNC](https://planet-cnc.com/software/)       | W,M,L |             | ?          | ?       |     |  | | |
 | [Grbl-GCode-Sender](https://github.com/terjeio/Grbl-GCode-Sender) | W | G  | C#         |  BSD-3-Clause License | | | | |
 | [FabMo](http://gofabmo.org/)                         | W,M,L | G2          | Javascript | Apache-2.0 |  |  | | |
+| [GridBot](https://github.com/GridSpace/grid-bot)     | L,M   | M           | Javascript | MIT     | :heavy_check_mark: | :heavy_check_mark: | | |
 
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
