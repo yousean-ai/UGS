@@ -31,7 +31,7 @@ A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2
 | ---------------------------------------------------- | ------| ----------- | ---------- | ------- | --- | ----- | ------- | --------- | ------- |
 | [UGS Platform](http://winder.github.io/ugs_website/) | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [UGS Classic](http://winder.github.io/ugs_website/)  | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: |
-| [bCNC](https://github.com/vlachoudis/bCNC)           | L,M,W | G,S         | Python     | GPLv2   |     | :heavy_check_mark: | | | :heavy_check_mark: | 
+| [bCNC](https://github.com/vlachoudis/bCNC)           | L,M,W | G,S         | Python     | GPLv2   |     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: | 
 | [Chilipeppr](http://chilipeppr.com/)                 | L,M,W | G,T         | Javascript | GPLv2   |     | :heavy_check_mark: | | :heavy_check_mark: | :x: |
 | [cnc.js](https://github.com/cncjs/cncjs)             | L,M,W | G,T,G2,S,M  | Javascript | MIT     |     | :heavy_check_mark: | :x: | :x: | :x: |
 | [Goko](https://goko.fr/)                             | L,M,W | G,T,G2      | Java       | GPLv3   |     |  | | |
@@ -48,6 +48,7 @@ A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2
 | [Grbl-GCode-Sender](https://github.com/terjeio/Grbl-GCode-Sender) | W | G  | C#         |  BSD-3-Clause License | | | | |
 | [FabMo](http://gofabmo.org/)                         | W,M,L | G2          | Javascript | Apache-2.0 |  |  | | |
 | [GridBot](https://github.com/GridSpace/grid-bot)     | L,M   | M           | Javascript | MIT     | :heavy_check_mark: | :heavy_check_mark: | | |
+| [GRBL-Plotter](https://github.com/svenhb/GRBL-Plotter)| W    | G           | C#         | GPLv3   |     |  | | :heavy_check_mark: | :heavy_check_mark: |                    
 
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
