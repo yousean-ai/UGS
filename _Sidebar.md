@@ -1,5 +1,7 @@
 :house: [Home](Home)
 
+:clipboard: [Features](Features)
+
 :floppy_disk: [Installing](Installing)
 
 :running: [Running](Running)
