@@ -57,9 +57,11 @@ _* **CLI:** Command Line Interface for interacting with the software without a G
 
 ## CNC controllers
 
-| Name                                                         | License | Axises | Overrides |
-| ------------------------------------------------------------ | ------- | ------ | --------- |
+| Name                                                         | License | Axises | Overrides          |
+| ------------------------------------------------------------ | ------- | ------ | ------------------ |
 | [GRBL](https://github.com/gnea/grbl)                         | GPLv3   | 3      | :heavy_check_mark: |
+| [grblHAL](https://github.com/gnea/grbl)                      | GPLv3   | 6      | :heavy_check_mark: |
+| [Grbl_Esp32](https://github.com/bdring/Grbl_Esp32)           | GPLv3   | 6      | :heavy_check_mark: |
 | [TinyG](https://github.com/synthetos/TinyG)                  | GPLv2   | 4      | :x: |
 | [g2core](https://github.com/synthetos/g2)                    | GPLv2   | 6      | :heavy_check_mark: |
 | [Smoothieware](https://github.com/Smoothieware/Smoothieware) | GPLv3   | 4      | |
