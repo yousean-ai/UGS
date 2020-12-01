@@ -1,13 +1,17 @@
-Different controllers and their versions are supported differently in UGS. We strive to make the user experience similar for different hardware but not all features are possible to implement. This is a list of some of the basic capabilities and how they are supported in UGS.
+Different controllers and their versions are supported differently in UGS. We strive to make the user experience similar across different hardware/firmwares. This is a list of some of the basic capabilities and how they are supported in UGS.
 
 | Controller | [File](#file) | [G-states](#g-states) | [Mco](#mco) | [Wco](#wco) | [Jog](#jog) | [Home](#home) | [Settings](#settings) | [Overrides](#overrides) |
 | -------------- |------|----------|-----|-----|-----|------|----------|-----------|
 | GRBL 1.1+      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | GRBL 0.9       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
 | GRBL 0.8       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
+| [grblHAL](https://github.com/terjeio/grblHAL) | ? | ? | ? | ? | ? | ? | ? | ? |
+| [Grbl_Esp32](https://github.com/bdring/Grbl_Esp32) | ? | ? | ? | ? | ? | ? | ? | ? |
 | TinyG          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  | |
 | g2core 101.03+ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |
 | Smoothieware   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  |
+| Marlin | | | | | | | | |
+
 
 ## File
 The minimum feature for sending, pausing and stopping a gcode file transfer to the controller.
