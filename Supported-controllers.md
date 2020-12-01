@@ -29,10 +29,10 @@ Work coordinate system or offsets can be configured by the user to have a relati
 Jogging or stepping makes it possible to position the machine and the tool around a material. Some controllers also enables continuous jogging.
 
 ## Home
-Homing will determine the absolute zero for the machine position
+Homing will move the machine to determine the absolute zero machine position which will be available in UGS as a homing button.
 
 ## Settings
 If firmware settings can be altered through the machine
 
 ## Overrides
-If runtime overrides are supported for feed and spindle speeds.
+Overrides will allow the machine operator to increase or decrease the feed rate or spindle speed of the machine when a Gcode program is running. 
