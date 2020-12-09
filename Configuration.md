@@ -9,6 +9,7 @@
   * [Visualizer colors](#configuring-the-visualizer-colors)
   * [Macros](#configuring-macros)
   * [Using dark theme](#using-dark-theme)
+  * [Gamepad and joystick](gamepad-and-joystick)
 * [UGS Classic](#configuring-ugs-classic)
   * [Configuration files](#configuration-files-1)
 
@@ -88,6 +89,8 @@ There is a dark theme (Look and Feel) in UGS that can be enabled through the set
 * Restart and the dark themed UGS is used:<br/>
 ![UGS with FlatLaf dark](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/dark_laf3.png)
 
+### Gamepad and joystick
+See [Usage / Gamepad and joystick](Usage#gamepad-and-joystick)
 
 ## Configuring UGS Classic
 
