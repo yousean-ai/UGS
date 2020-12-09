@@ -9,7 +9,7 @@
   * [Visualizer colors](#configuring-the-visualizer-colors)
   * [Macros](#configuring-macros)
   * [Using dark theme](#using-dark-theme)
-  * [Gamepad and joystick](gamepad-and-joystick)
+  * [Gamepad and joystick](#gamepad-and-joystick)
 * [UGS Classic](#configuring-ugs-classic)
   * [Configuration files](#configuration-files-1)
 
