@@ -39,9 +39,20 @@ sudo reboot
 Download UGS Platform for RaspberryPI from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
 
 ```
-unzip -o ugsplatform.zip
-./ugsplatform/bin/ugsplatform
+# Makes sure you have the permission to connect to the USB controller
+sudo usermod -a -G dialout pi
+
+mkdir ugs
+cd ugs
+
+# Use command below with link address from downloads page for your platform
+wget https://ugs.jfrog.io/ugs/UGS/v2.0.7/ugs-platform-app-pi.tar.gz   
+
+# Use command below to unzip the file downloaded above
+tar zxvf ugs-platform-app-pi.tar.gz
 ```
+Navigate in file explorer to: /home/pi/ugs/ugsplatform-pi/bin/ugsplatform and run 'ugsplatform'.
+Create a desktop shortcut by selecting the file and clicking 'create link' from the edit menu.
 
 Open the preferences and change the connection driver to **JSSC**, otherwise the connection to the CNC controller will be unpredictable.
 
