@@ -5,6 +5,7 @@
   * [Digital read-out](#digital-read-out)
   * [GCode Editor](#gcode-editor)
   * [Gamepad and Joystick](#gamepad-and-joystick)
+  * [Outline](#outline)
 
 # UGS Platform
 The UGS Platform is the next generation of Universal Gcode Sender. It is built ontop of the Netbeans Platform which allows us to leverage its mature modular framework. This platform allows more features to be added without compromising on code quality, or being bogged down by a home grown framework. The Classic GUI is used as a library, so core features benefit both interfaces.
@@ -107,3 +108,9 @@ Different gamepads have slightly different layouts. This is an example of how th
 | Left stick Y | Analog button | Analog jog Y |
 | Right stick X | Analog button |             |
 | Right stick Y | Analog button | Analog jog Z |
+
+## Outline
+Outline will move the tool around the gcode model to make sure that the program can be runned properly.
+It will only move the XY-positions at the current set Z-height.
+![Outline](https://user-images.githubusercontent.com/8962024/71760967-826f7900-2ec5-11ea-8395-b89c074d6d25.gif)
+
