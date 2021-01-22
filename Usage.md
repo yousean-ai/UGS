@@ -110,7 +110,7 @@ Different gamepads have slightly different layouts. This is an example of how th
 | Right stick Y | Analog button | Analog jog Z |
 
 ## Outline
-Outline will move the tool around the gcode model to make sure that the program can be runned properly.
-It will only move the XY-positions at the current set Z-height.
+Outline will move the tool around the gcode model to make sure that the program can be runned properly. It will only move the XY-positions at the current set Z-height.
+
 ![Outline](https://user-images.githubusercontent.com/8962024/71760967-826f7900-2ec5-11ea-8395-b89c074d6d25.gif)
 
