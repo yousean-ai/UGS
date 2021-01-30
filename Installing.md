@@ -66,7 +66,7 @@ Download and install Java from [https://java.com/en/download/](https://java.com/
 
 Download UGS (either Windows or "All platforms" edition, requires Java JRE) from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
 
-Unpack the Universal Gcode Sender package and run the start script:
+Unpack the Universal Gcode Sender package and run the start one of the following scripts:
+
 <br>ugsplatform/bin/ugsplatform.exe
-<br> ---or---
 <br>ugsplatform/bin/ugsplatform64.exe
