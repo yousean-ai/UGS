@@ -62,4 +62,6 @@ unzip -o ugsplatform.zip
 Refer to this page: [[Raspberry Pi]]
 
 ### Windows
-TBD
+* Download and install Java from [here](https://java.com/en/download/):
+* Download UGS (either Windows or "All platforms" edition, requires Java JRE) from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
+* Unpack the Universal Gcode Sender package and run the start script ( ugsplatform/bin/ugsplatform.exe or ugsplatform/bin/ugsplatform64.exe )
