@@ -8,17 +8,18 @@ To be able to build your own CNC machine you need three softwares for your tool 
 Gcode is a CNC machine programming language. To generate such instructions you could write the code yourself ([code reference](http://linuxcnc.org/docs/html/gcode.html)) or use a CAD/CAM-software which generates it from a 3D or 2D model. Here is a list with 
 different softwares and their support for different file formats.
 
-| Name                                                           | OS    | License     | Supported controllers | DWG | STL | Gcode | SVG |
-| -------------------------------------------------------------- | ------| ----------- | --------------------- | --- | --- | ----- | --- |
+| Name                                                           | OS    | License     | Supported controllers | DWG | DXF| STL | Gcode | SVG |
+| -------------------------------------------------------------- | ------| ----------- | --------------------- | --- | ---| --- | ----- | --- |
 | [Fusion 360](https://www.autodesk.se/products/fusion-360/)     | M,W   | Commercial  | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [FreeCad](https://www.freecadweb.org/)                         | M,W,L | LGPLv2+     | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [Inventables Easel](http://easel.inventables.com/)             | Web   | Free to use | G                     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: |
 | [Kiri:Moto](https://grid.space/kiri/)                          | Web   | MIT         |                       | | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| [Carbide Create](https://carbide3d.com/carbidecreate/)         |       |             |                       | | | | |
-| MakerCAM                                                       |       |             |                       | | | | |
-| [F-Engrave](https://www.scorchworks.com/Fengrave/fengrave.html)| W     | ?           |                       | | | | |
-| EstlCAM                                                    |       |             |                       | | | | |
-| CamBAM                                                     |       |             |                       | | | | |
+| [Carbide Create](https://carbide3d.com/carbidecreate/)         |       |             |                       | | | | | |
+| MakerCAM                                                       |       |             |                       | | | | | |
+| [F-Engrave](https://www.scorchworks.com/Fengrave/fengrave.html)| W     | ?           |                       | | | | | | 
+| EstlCAM                                                        |       |             |                       | | | | | |
+| CamBAM                                                         |       |             |                       | | | | | |
+| [Templatemaker](https://www.templatemaker.nl/)                 | Web   | Free to use |                       | | :heavy_check_mark: | | | :heavy_check_mark:|
       
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
 _* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin_ <br/>
