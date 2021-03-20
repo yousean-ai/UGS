@@ -4,6 +4,7 @@
   * [Connecting to the machine](#connecting-to-the-machine)
   * [Digital read-out](#digital-read-out)
   * [GCode Editor](#gcode-editor)
+  * [Run from a selected line](#run-from-a-selected-line)
   * [Gamepad and Joystick](#gamepad-and-joystick)
   * [Outline](#outline)
 
@@ -66,6 +67,13 @@ The editor window can be moved around and changes to the gcode file can be viewe
 When connected to a controller it can also highlight and display warnings for gcode commands that may not be compatible with the current controller. It will also highlight commands that contains errors. 
 
 ![GCode compatibility with connected controller](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-syntax-highlight.gif)
+
+## Run from a selected line
+
+If a job has failed or needs to be rerun from a certain point in the gcode file you can simply select the line in the gcode file and choose "Run From...". The gcode model will be rerendered excluding the skipped lines. 
+
+![Run from](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/run_from.gif)
+
 
 ## Gamepad and Joystick
 
