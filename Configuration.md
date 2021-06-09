@@ -58,7 +58,7 @@ The UGS platform settings is located in your home directory. These settings cont
 * **Linux**: ~/.ugsplatform
 
 ### Log files
-When creating a issuer it's often helpful for us to trace the error in your log file. These are located here:
+When creating an issue it is often helpful for us to trace the error in your log file. These are located here:
 * **Windows 7 and higher**: C:/Users/[your username>]/.ugsplatform/2.X/var/log/messages.log
 * **Windows XP**: C:/Documents and Settings/[your username>]/.ugsplatform/2.X/var/log/messages.log
 * **Mac**: ~/Library/Application Support/ugsplatform/2.X/dev/var/log/messages.log
