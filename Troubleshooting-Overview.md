@@ -39,14 +39,13 @@ Errors have been reported with Antivirus softwares:
 * Comodo
 * Trend Micro
 
-### Bad rendering of fonts
-On some Linux systems there might be problems with rendering fonts:
-![image](https://user-images.githubusercontent.com/8962024/123251537-9b218380-d4eb-11eb-8a97-299913b07de6.png)
+### Bad font rendering
+On some Linux systems there might be problems with rendering fonts. See discussion here for more details: https://github.com/winder/Universal-G-Code-Sender/issues/1622
 
-This may be fixed by setting a couple of environment variables:
-```sudo echo "_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true' " >> /etc/environment````
+<img src="https://user-images.githubusercontent.com/8962024/123251537-9b218380-d4eb-11eb-8a97-299913b07de6.png" width="300"/>
 
-See discussion here for more details: https://github.com/winder/Universal-G-Code-Sender/issues/1622
+This may be fixed by setting an environment variable:
+```sudo echo "_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true' " >> /etc/environment```
 
 
 ### Error message "Assistive Technology not found"
