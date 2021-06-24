@@ -39,6 +39,16 @@ Errors have been reported with Antivirus softwares:
 * Comodo
 * Trend Micro
 
+### Bad rendering of fonts
+On some Linux systems there might be problems with rendering fonts:
+![image](https://user-images.githubusercontent.com/8962024/123251537-9b218380-d4eb-11eb-8a97-299913b07de6.png)
+
+This may be fixed by setting a couple of environment variables:
+```sudo echo "_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true' " >> /etc/environment````
+
+See discussion here for more details: https://github.com/winder/Universal-G-Code-Sender/issues/1622
+
+
 ### Error message "Assistive Technology not found"
 On KDE Neon 5.16 with OpenJDK 1.8.0_212 a user got the follwing error message (https://github.com/winder/Universal-G-Code-Sender/issues/1267):
 
