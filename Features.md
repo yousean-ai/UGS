@@ -1,13 +1,15 @@
 ## UGS Platform
 * **Configurable user interface**
   * Customizable toolbox for common actions
-  * Customizable toolbar for common actions
+  * Customizable toolbar
   * Dockable windows that can be moved to suit your needs
   * Responsive UI supporting big and small screens
 * **Visualize g-code files**
   * Real time tool position feedback
   * Right click in visualizer to jog to location
   * Right click to set the current work position
+  * Customizable colors
+  * Different colors for paths of different types (G0, G1, G2, G3)
 * **Real time overrides** 
   * Fine tune the feed rate of a running g-code program
   * Fine tune the spindle speed of a running g-code program
@@ -15,6 +17,15 @@
   * Highlight selected rows in the Visualizer
   * Show the selected row in the Visualizer
   * Right click to run from selected row
+  * Rotate gcode model
+  * Mirror gcode model
+  * Move gcode model to zero location
+* **Designer editor**
+  * Import SVG files
+  * Cut shape with either a pocket-, outline-, inside- or on line operation with a given depth
+  * Move, scale and rotate shapes
+  * Undo/Redo for all actions
+  * Manually setting a shapes position, size and rotation
 * **Configurable g-code optimization**
   * Remove comments
   * Truncate decimal precision to configurable amount
@@ -30,7 +41,7 @@
   * Smoothieware
   * TinyG
   * G2core
-* **Operating system independant** - works on virtually all platforms
+* **Operating system independent** - works on virtually all platforms
   * Windows
   * Linux
   * MacOSX
