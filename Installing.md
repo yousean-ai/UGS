@@ -1,6 +1,6 @@
 ## Installing UGS Platform
 
-* Download **UGS Platform** for your OS from here: https://github.com/winder/Universal-G-Code-Sender#downloads. 
+* Download **UGS Platform** for your OS from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Unpack the zip package
 * Start the program ```bin/ugsplatform```
 
@@ -9,13 +9,13 @@
 
 ### Windows
 * Download and install Java from [here](https://java.com/en/download/)
-* Download **UGS Classic** from here: https://github.com/winder/Universal-G-Code-Sender#downloads
+* Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
 * Unpack the zip package
 * Run the start script ```start.bat```
 
 ### MacOSX
 * Download and install Java from [here](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html):
-* Download **UGS Classic** from here: https://github.com/winder/Universal-G-Code-Sender#downloads
+* Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
 * Unpack the zip package
 * Run the start script ```start.sh```
 
@@ -43,7 +43,7 @@ Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
 Java HotSpot(TM) Client VM (build 25.65-b01, mixed mode)
 ```
 
-* Download **UGS Classic** from here: https://github.com/winder/Universal-G-Code-Sender#downloads
+* Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
 * Run the start script ```start.sh```
 
 
