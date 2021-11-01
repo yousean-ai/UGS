@@ -8,13 +8,13 @@
 ## Installing UGS Classic
 
 ### Windows
-* Download and install Java from [here](https://java.com/en/download/)
+* Download and install **Java 8** from [here](https://java.com/en/download/)
 * Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
 * Unpack the zip package
 * Run the start script ```start.bat```
 
 ### MacOSX
-* Download and install Java from [here](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html):
+* Download and install **Java 8** from [here](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html):
 * Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
 * Unpack the zip package
 * Run the start script ```start.sh```
@@ -33,7 +33,7 @@ apt-get update
 apt-get install openjdk-8-jdk
 ```
 
-* Make sure your system is using the correct JDK:
+* Make sure your system is using Java 8 (1.8.xx):
 ```bash
 java -version
 ```
