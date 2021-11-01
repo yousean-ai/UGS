@@ -7,7 +7,7 @@
   * [Download the source and build](#download-the-source-and-build)
 
 ## Installing on a Raspberry Pi
-As of version 1.0.6 Universal Gcode Sender should work out of the box on Raspberry Pi running [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) (just a couple of tweaks).
+As of version 1.0.6 Universal Gcode Sender should work on Raspberry Pi running [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) if you apply a couple of tweaks in your RPi settings.
 
 ### Activate OpenGL driver
 Raspbian comes with the proprietary video driver VC4 which is not supported by the OpenGL-library that UGS is using. To use the visualizer you need to activate one of the other drivers and remove/move the vc4-libraries.
@@ -64,18 +64,18 @@ Open the preferences and change the connection driver to **JSSC**, otherwise the
 Start with installing Java, run these commands from the terminal: 
 ```bash
 apt-get update
-apt-get install openjdk-11-jdk
+apt-get install openjdk-8-jdk
 ```
 
-Make sure your system is using the correct JDK:
+Make sure your system is using Java 8 (1.8.xx):
 ```bash
 java -version
 ```
 
 ```
-openjdk 11.0.5 2019-10-15
-OpenJDK Runtime Environment (build 11.0.5....)
-OpenJDK Server VM (build 11.0.5...)
+java version "1.8.0_65"
+Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
+Java HotSpot(TM) Client VM (build 25.65-b01, mixed mode)
 ```
 
 Download UGS classic from the download link: https://github.com/winder/Universal-G-Code-Sender#downloads
@@ -98,7 +98,7 @@ Building UGS on a Raspberry Pi is slow but is possible. But there is a limitatio
 Then we need to install Java, run these commands from the terminal: 
 ```bash
 apt-get update
-apt-get install openjdk-11-jdk maven
+apt-get install openjdk-8-jdk maven
 ```
 
 Make sure your system is using the correct JDK:
@@ -107,9 +107,9 @@ java -version
 ```
 
 ```
-openjdk 11.0.5 2019-10-15
-OpenJDK Runtime Environment (build 11.0.5....)
-OpenJDK Server VM (build 11.0.5...)
+java version "1.8.0_65"
+Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
+Java HotSpot(TM) Client VM (build 25.65-b01, mixed mode)
 ```
 
 ### Download the source and build
