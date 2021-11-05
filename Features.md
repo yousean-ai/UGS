@@ -1,6 +1,6 @@
 ## UGS Platform
 * **Configurable user interface**
-  * Customizable toolbox for common actions
+  * [Customizable toolbox for common actions](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#toolbox)
   * Customizable toolbar
   * Dockable windows that can be moved to suit your needs
   * Responsive UI supporting big and small screens
@@ -10,13 +10,14 @@
   * Right click to set the current work position
   * Customizable colors
   * Different colors for paths of different types (G0, G1, G2, G3)
+  * [Outline gcode](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#outline)
 * **Real time overrides** 
   * Fine tune the feed rate of a running g-code program
   * Fine tune the spindle speed of a running g-code program
 * **G-code editor**
   * Highlight selected rows in the Visualizer
   * Show the selected row in the Visualizer
-  * Right click to run from selected row
+  * [Right click to run from selected row](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#run-from-a-selected-line)
   * Rotate gcode model
   * Mirror gcode model
   * Move gcode model to zero location
@@ -33,7 +34,7 @@
   * Remove whitespace
 * **Gamepad and Joystick** 
   * Control your machine using practically any gamepad or a joystick (that are supported by SDL)
-  * Customize the buttons to different actions
+  * [Customize the buttons to different actions](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#gamepad-and-joystick)
   * Continuous and analog jogging for fine precision positioning
 * **Web interface** - control your machine remotely from a web page
 * **Supports many controllers**
