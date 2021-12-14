@@ -23,10 +23,13 @@
   * Move gcode model to zero location
 * **Designer editor**
   * Import SVG files
+  * Import DXF files
+  * Draw simple shapes and text
   * Cut shape with either a pocket-, outline-, inside- or on line operation with a given depth
-  * Move, scale and rotate shapes
+  * Move, scale, rotate and mirror shapes
   * Undo/Redo for all actions
   * Manually setting a shapes position, size and rotation
+  * Multiply selected shapes in a grid
 * **Configurable g-code optimization**
   * Remove comments
   * Truncate decimal precision to configurable amount
@@ -36,13 +39,13 @@
   * Control your machine using practically any gamepad or a joystick (that are supported by SDL)
   * [Customize the buttons to different actions](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#gamepad-and-joystick)
   * Continuous and analog jogging for fine precision positioning
-* **Web interface** - control your machine remotely from a web page
+* **Web interface** - control your machine remotely from a web based [pendant](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#pendant)
 * **Supports many controllers**
   * GRBL
   * Smoothieware
   * TinyG
   * G2core
-* **Operating system independent** - works on virtually all platforms
+* **Operating system independent** - works on many platforms
   * Windows
   * Linux
   * MacOSX
