@@ -9,6 +9,7 @@
     * [Settings](#editor-settings)
   * [Gamepad and Joystick](#gamepad-and-joystick)
   * [Outline](#outline)
+  * [Pendant](#pendant)
 
 # UGS Platform
 The UGS Platform is the next generation of Universal Gcode Sender. It is built ontop of the Netbeans Platform which allows us to leverage its mature modular framework. This platform allows more features to be added without compromising on code quality, or being bogged down by a home grown framework. The Classic GUI is used as a library, so core features benefit both interfaces.
@@ -128,4 +129,15 @@ Different gamepads have slightly different layouts. This is an example of how th
 Outline will move the tool around the gcode model to make sure that the program can be runned properly. It will only move the XY-positions at the current set Z-height.
 
 ![Outline](https://user-images.githubusercontent.com/8962024/71760967-826f7900-2ec5-11ea-8395-b89c074d6d25.gif)
+
+## Pendant
+There is a web based pendant which allows you to control the machine via a web browser. It is normally accessible through [http://localhost:8080/](http://localhost:8080/) and looks like this:
+![Pendant](https://user-images.githubusercontent.com/8962024/52661473-702dca80-2f02-11e9-8c4c-b0578b3eb58e.png)
+
+We do not activate the feature by default and you need to start it by either pressing the pendant button each time you start UGS.
+![Start pendant](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/2.0_platform_pendant.png)
+
+You can also make it auto start each time you start UGS by activating it in the settings:
+![Autostart pendant](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/2.0_platform_pendant_autostart.png)
+
 
