@@ -131,13 +131,13 @@ Outline will move the tool around the gcode model to make sure that the program 
 ![Outline](https://user-images.githubusercontent.com/8962024/71760967-826f7900-2ec5-11ea-8395-b89c074d6d25.gif)
 
 ## Pendant
-There is a web based pendant which allows you to control the machine via a web browser. It is normally accessible through [http://localhost:8080/](http://localhost:8080/) and looks like this:
+There is a web based pendant which allows you to control the machine via a web browser.<br/>It is normally accessible through [http://localhost:8080/](http://localhost:8080/) and looks like this:<br/>
 ![Pendant](https://user-images.githubusercontent.com/8962024/52661473-702dca80-2f02-11e9-8c4c-b0578b3eb58e.png)
 
-We do not activate the feature by default and you need to start it by either pressing the pendant button each time you start UGS.
+We do not activate the feature by default and you need to start it by either pressing the pendant button each time you start UGS.<br/>
 ![Start pendant](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/2.0_platform_pendant.png)
 
-You can also make it auto start each time you start UGS by activating it in the settings:
+You can also make it auto start each time you start UGS by activating it in the settings:<br/>
 ![Autostart pendant](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/2.0_platform_pendant_autostart.png)
 
 
