@@ -1,12 +1,12 @@
 * [UGS Platform](#ugs-platform)
-  * [Resizing windows](#resizing-windows)
-  * [Toolbox](#toolbox)
   * [Connecting to the machine](#connecting-to-the-machine)
   * [Actions](#actions)
     * [Machine actions](#machine-actions)
     * [Program actions](#program-actions)
     * [Macros](#macros)
+  * [Toolbox](#toolbox)
   * [Digital read-out](#digital-read-out)
+  * [Resizing windows](#resizing-windows)
   * [GCode Editor](#gcode-editor)
     * [Error highlighting](#error-highlighting)
     * [Run from a selected line](#run-from-a-selected-line)
@@ -17,16 +17,6 @@
 
 # UGS Platform
 The UGS Platform is the next generation of Universal Gcode Sender. It is built ontop of the Netbeans Platform which allows us to leverage its mature modular framework. This platform allows more features to be added without compromising on code quality, or being bogged down by a home grown framework. The Classic GUI is used as a library, so core features benefit both interfaces.
-
-## Resizing windows
-All windows and modules can be resized and moved to different locations.
-
-![Resizing windows](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/2.0_platform_resizing_windows.gif)
-
-## Toolbox
-The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use are available. If an action can't be used at the moment it will be greyed out, ie when no machine is connected or a file loaded.
-
-![Toolbar](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/toolbox.gif)
 
 ## Connecting to the machine
 The first thing you will do after powering up your machine is connecting to your controller using the toolbar at the top of the program.
@@ -49,7 +39,11 @@ Select the correct baud rate for your controller.
 - **TinyG/g2core** will adapt to the baud rate you are connecting with so it really doesn't matter.
 
 ## Actions
+Actions are small commands that can be either sent to the controller or for controlling specific parts of a loaded gcode program. Most actions can be assigned to a keyboard short cut or be added to the toolbar or [Toolbox](#toolbox).
+
 ### Machine actions
+Machine actions are used for sending specific commands to the controller. This could be for resetting alarms or setting the controller work position. These actions will be enabled/disabled depending on the state of the controller. For instance most actions will be disabled when running a gcode program or some actions will not be available when in an alarm state. Below are some of the most important actions to know about.
+
 #### ![Reset zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/resetzero.svg)&nbsp;Reset zero 
 This will set the current machine position as the new zeroed work coordinate. It will get a work coordinate reference point [X0, Y0, Z0]. 
 
@@ -62,18 +56,25 @@ If the current Z position is equal to or below a _safe height_ it will first be 
 An action that will reset the controller without switching off its power. This can be needed on some controllers to resolve a specific alarm.
 
 #### ![Unlock](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/lock.svg)&nbsp;Unlock
-An action that will resolve a specific alarm state, for instance if the machine has triggered a hard limit which would indicate that the controller no longer safely know its current position and it would be unsafe to continue further movement.
+An action that will resolve a specific alarm state, for instance if the machine has been triggered with a hard limit which would indicate that the controller no longer know its current position and it would be unsafe to continue further movement. In this case it needs the user intervention.
 
 #### ![Home](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/home.svg)&nbsp;Home
 An action that will perform a homing sequence by moving the machine to its absolute zero position, triggering the homing/hard limit switches. After this the machine reference coordinates are zeroed.
 
-
 ### Program actions
+Program actions is generally only available when there is an loaded gcode file and allows for basic manipulation of the program.
+
 #### ![Outline](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/outline.svg)&nbsp;Outline
-This will move the machine around the model, outlining the work to be done. This can be useful if you want to check if the material is correctly positioned. This action will only move the machine in X and Y coordinates at the current set Z height.
+This will move the machine around the currently loaded model outlining the work to be done. This can be useful if you want to check if the material is correctly positioned or if the tool will clear the fixtures. This action will only move the machine in X and Y coordinates at the current set Z height.
+![Outline example](https://user-images.githubusercontent.com/8962024/71783552-96f86200-2fe8-11ea-95cc-55d10e38bda3.gif)
+
 
 ### Macros
 
+## Toolbox
+The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use are available. If an action can't be used at the moment it will be greyed out, ie when no machine is connected or a file loaded.
+
+![Toolbox](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/toolbox.gif)
 
 ## Digital read-out
 The Digital read-out (or Controller state) panel displays the current status of your machine such as the work/machine coordinates, machine/spindle speeds and gcode states.
@@ -87,6 +88,12 @@ The Digital read-out (or Controller state) panel displays the current status of 
 * Shows the current feed rate and spindle speed
 * Shows the current GCode state (eg. the units currently being used G20/G21)
 * Shows a alarm with the triggered limit switches
+
+## Resizing windows
+All windows and modules can be resized and moved to different locations.
+
+![Resizing windows](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/2.0_platform_resizing_windows.gif)
+
 
 ## GCode Editor
 
