@@ -1,7 +1,7 @@
 ## UGS Platform
 * **Configurable user interface**
-  * [Customizable toolbox for common actions](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#toolbox)
-  * Customizable toolbar
+  * [Customizable toolbox for common actions](Usage#toolbox)
+  * [Customizable toolbar](Usage#toolbar)
   * Dockable windows that can be moved to suit your needs
   * Responsive UI supporting big and small screens
 * **Visualize g-code files**
