@@ -65,9 +65,7 @@ When creating an issue it is often helpful for us to trace the error in your log
 * **Linux**: ~/.ugsplatform/2.X/var/log/messages.log
 
 ### Configuring the toolbar
-The toolbar can be configured by right clicking in the toolbar and choose `Customize`. From there new icons can be added and removed. New toolbars can be added or hidden.
-
-![Toolbar customization](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/customize_toolbar.gif)
+See [Usage / Toolbar](Usage#toolbar)
 
 ### Configuring panels and windows
 All panels and windows can be resized and moved to different locations by dragging and dropping them:
