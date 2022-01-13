@@ -2,6 +2,7 @@
   * [Resizing windows](#resizing-windows)
   * [Toolbox](#toolbox)
   * [Connecting to the machine](#connecting-to-the-machine)
+  * [Machine actions](#machine-actions)
   * [Digital read-out](#digital-read-out)
   * [GCode Editor](#gcode-editor)
     * [Error highlighting](#error-highlighting)
@@ -45,6 +46,9 @@ Select the correct baud rate for your controller.
 - **TinyG/g2core** will adapt to the baud rate you are connecting with so it really doesn't matter.
 
 ## Machine actions
+### ![Reset zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/resetzero.svg)&nbsp;Reset zero 
+This will set the current machine position as the new zeroed work coordinate. It will get a work coordinate reference point [X0, Y0, Z0]. 
+
 ### ![Return to zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/zero.svg)&nbsp;Return to zero 
 An action that will move the machine to the zero location [X0, Y0, Z0] in the current work coordinates. 
 If the current Z position is equal to or below a _safe height_ it will first be moved to the Z safe height to avoid scratching the work piece. The safe height can be set in the "Sender settings".
