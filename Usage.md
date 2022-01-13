@@ -2,7 +2,10 @@
   * [Resizing windows](#resizing-windows)
   * [Toolbox](#toolbox)
   * [Connecting to the machine](#connecting-to-the-machine)
-  * [Machine actions](#machine-actions)
+  * [Actions](#actions)
+    * [Machine actions](#machine-actions)
+    * [Program actions](#program-actions)
+    * [Macros](#macros)
   * [Digital read-out](#digital-read-out)
   * [GCode Editor](#gcode-editor)
     * [Error highlighting](#error-highlighting)
@@ -45,23 +48,32 @@ Select the correct baud rate for your controller.
 - **GRBL** - version 0.9 or later are using 115200, earlier versions are using 9600.
 - **TinyG/g2core** will adapt to the baud rate you are connecting with so it really doesn't matter.
 
-## Machine actions
-### ![Reset zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/resetzero.svg)&nbsp;Reset zero 
+## Actions
+### Machine actions
+#### ![Reset zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/resetzero.svg)&nbsp;Reset zero 
 This will set the current machine position as the new zeroed work coordinate. It will get a work coordinate reference point [X0, Y0, Z0]. 
 
-### ![Return to zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/zero.svg)&nbsp;Return to zero 
+#### ![Return to zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/zero.svg)&nbsp;Return to zero 
 An action that will move the machine to the zero location [X0, Y0, Z0] in the current work coordinates. 
 If the current Z position is equal to or below a _safe height_ it will first be moved to the Z safe height to avoid scratching the work piece. The safe height can be set in the "Sender settings".
 ![Sender settings](https://user-images.githubusercontent.com/8962024/147445951-83785274-8a1c-4ed7-b0d1-a0724c8eed13.png)
 
-### ![Soft Reset](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/reset.svg)&nbsp;Soft Reset
+#### ![Soft Reset](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/reset.svg)&nbsp;Soft Reset
 An action that will reset the controller without switching off its power. This can be needed on some controllers to resolve a specific alarm.
 
-### ![Unlock](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/lock.svg)&nbsp;Unlock
+#### ![Unlock](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/lock.svg)&nbsp;Unlock
 An action that will resolve a specific alarm state, for instance if the machine has triggered a hard limit which would indicate that the controller no longer safely know its current position and it would be unsafe to continue further movement.
 
-### ![Home](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/home.svg)&nbsp;Home
+#### ![Home](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/home.svg)&nbsp;Home
 An action that will perform a homing sequence by moving the machine to its absolute zero position, triggering the homing/hard limit switches. After this the machine reference coordinates are zeroed.
+
+
+### Program actions
+#### ![Outline](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/outline.svg)&nbsp;Outline
+This will move the machine around the model, outlining the work to be done. This can be useful if you want to check if the material is correctly positioned. This action will only move the machine in X and Y coordinates at the current set Z height.
+
+### Macros
+
 
 ## Digital read-out
 The Digital read-out (or Controller state) panel displays the current status of your machine such as the work/machine coordinates, machine/spindle speeds and gcode states.
