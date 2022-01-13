@@ -5,6 +5,7 @@
     * [Program actions](#program-actions)
     * [Macros](#macros)
   * [Toolbox](#toolbox)
+  * [Toolbar](#toolbar)
   * [Digital read-out](#digital-read-out)
   * [Resizing windows](#resizing-windows)
   * [GCode Editor](#gcode-editor)
@@ -75,6 +76,11 @@ This will move the machine around the currently loaded model outlining the work 
 The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use are available. If an action can't be used at the moment it will be greyed out, ie when no machine is connected or a file loaded.
 
 ![Toolbox](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/toolbox.gif)
+
+## Toolbar
+The toolbar can be configured by right clicking in the toolbar and choose `Customize`. From there new actions can be added and removed by dragging them out the desired position. New toolbars can be added or hidden.
+
+![Toolbar customization](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/customize_toolbar.gif)
 
 ## Digital read-out
 The Digital read-out (or Controller state) panel displays the current status of your machine such as the work/machine coordinates, machine/spindle speeds and gcode states.
