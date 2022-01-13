@@ -13,7 +13,6 @@
     * [Run from a selected line](#run-from-a-selected-line)
     * [Settings](#editor-settings)
   * [Gamepad and Joystick](#gamepad-and-joystick)
-  * [Outline](#outline)
   * [Pendant](#pendant)
 
 # UGS Platform
@@ -168,11 +167,6 @@ Different gamepads have slightly different layouts. This is an example of how th
 | Left stick Y | Analog button | Analog jog Y |
 | Right stick X | Analog button |             |
 | Right stick Y | Analog button | Analog jog Z |
-
-## Outline
-Outline will move the tool around the gcode model to make sure that the program can be runned properly. It will only move the XY-positions at the current set Z-height.
-
-![Outline](https://user-images.githubusercontent.com/8962024/71760967-826f7900-2ec5-11ea-8395-b89c074d6d25.gif)
 
 ## Pendant
 There is a web based pendant which allows you to control the machine via a web browser.<br/>It is normally accessible through [http://localhost:8080/](http://localhost:8080/) and looks like this:<br/>
