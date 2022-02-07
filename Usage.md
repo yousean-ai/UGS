@@ -12,6 +12,7 @@
     * [Error highlighting](#error-highlighting)
     * [Run from a selected line](#run-from-a-selected-line)
     * [Settings](#editor-settings)
+  * [Designer](#designer)
   * [Gamepad and Joystick](#gamepad-and-joystick)
   * [Pendant](#pendant)
 
@@ -99,7 +100,6 @@ All windows and modules can be resized and moved to different locations.
 
 ![Resizing windows](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/2.0_platform_resizing_windows.gif)
 
-
 ## GCode Editor
 
 UGS has a built in editor that allows you to open and edit a GCode files.
@@ -125,6 +125,11 @@ If a job has failed or needs to be rerun from a certain point in the gcode file 
 The editor will be shown by default when opening gcode files, this behavior can be disabled in the settings by unchecking the option ```Show editor when opening g-code files```:
 
 <img alt="Disable editor" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-disable-settings.png" width="600"/>
+
+## Designer
+The designer allows you to draw simple vector graphics and/or import SVG or DXF-files where you can also assign toolpath operations to each shape. The designer is intended to be a quick way to generate gcode and to get started with your machine.
+
+<img alt="Designer" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/2.0_platform_designer.png" width="600"/>
 
 ## Gamepad and Joystick
 
