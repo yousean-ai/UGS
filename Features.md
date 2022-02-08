@@ -27,9 +27,11 @@
   * Draw simple shapes and text
   * Cut shape with either a pocket-, outline-, inside- or on line operation with a given depth
   * Move, scale, rotate and mirror shapes
+  * Intersect, union and subtract shapes with each other
   * Undo/Redo for all actions
   * Manually setting a shapes position, size and rotation
-  * Multiply selected shapes in a grid
+  * Multiply selected shapes into a grid
+  * Import shapes from a clipart library with hundreds of images
 * **Configurable g-code optimization**
   * Remove comments
   * Truncate decimal precision to configurable amount
