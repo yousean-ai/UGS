@@ -8,8 +8,8 @@
 ## Installing UGS Classic
 
 ### Windows
-* Download and install **Java 8** from [here](https://bit.ly/3KUcILt)
-* Download **UGS Classic** from [here](https://bit.ly/3Ill79k)
+* Download and install **Java 8** from [here](https://java.com/en/download/)
+* Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
 * Unpack the zip package
 * Run the start script ```start.bat```
 
