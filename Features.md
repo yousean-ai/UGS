@@ -24,6 +24,7 @@
 * **Designer editor**
   * Import SVG files
   * Import DXF files
+  * Import C2D files (Carbide Create)
   * Draw simple shapes and text
   * Cut shape with either a pocket-, outline-, inside- or on line operation with a given depth
   * Move, scale, rotate and mirror shapes
