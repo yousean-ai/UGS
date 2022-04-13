@@ -10,6 +10,7 @@ different softwares and their support for different file formats.
 
 | Name                                                           | OS    | License     | Supported controllers | DWG | DXF| STL | Gcode | SVG |
 | -------------------------------------------------------------- | ------| ----------- | --------------------- | --- | ---| --- | ----- | --- |
+| [UGS Platform](http://winder.github.io/ugs_website/)           | M,W,L | GPLv3       | G,T,G2,S              | | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: |
 | [Fusion 360](https://www.autodesk.se/products/fusion-360/)     | M,W   | Commercial  | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [FreeCad](https://www.freecadweb.org/)                         | M,W,L | LGPLv2+     | G                     | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 | [Inventables Easel](http://easel.inventables.com/)             | Web   | Free to use | G                     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: |
