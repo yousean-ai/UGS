@@ -85,6 +85,11 @@ Sometimes the configuration gets corrupt and some of the Windows is hidden or bu
 
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/8962024/159331187-76f8a1c3-34f2-490d-bb54-0ba4f1238689.png">
 
+### The Visualizer shows distorted gcode
+In some cases the visualizer shows the gcode all distorted and not at all expected. This is likely caused by bad graphics drivers. Try upgrading or downgrading the driver (#1868):
+
+<img width="676" alt="image" src="https://user-images.githubusercontent.com/8962024/165678900-464e4ff4-027d-4af7-9852-1835c6c104ba.png">
+
 
 ### Other problems
 If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](Configuration#log-files) depending on your OS.
