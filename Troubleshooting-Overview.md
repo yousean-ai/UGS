@@ -106,7 +106,7 @@ This happens when UGS connects to a serial port and does not receive the GRBL st
 If you notice slowness while running your program, it may mean UGS is running out of available memory. There are a couple things to try:
 
 * Check the controller settings, and make sure "Arc Expander" is not enabled. This can take a small program and turn it into a very large one by converting arcs into many small movements.
-* Increase the memory allocated to UGS by navigating the the installation directory. There is a folder named etc containing ugsplatform.conf, open this file with a simple text editor and modify the value of Xms to something like -J-Xms256m, or larger. [Additional details can be found here](http://wiki.netbeans.org/FaqSettingHeapSize)
+* Increase the memory allocated to UGS by navigating the the installation directory. There is a folder named etc containing ugsplatform.conf, open this file with a simple text editor and add the parameter `-J-Xms256m`, or larger.
 
 # Open Issues
 Found a problem? Check the [list of open issues](https://github.com/winder/Universal-G-Code-Sender/issues) and see if someone is already working on it.
