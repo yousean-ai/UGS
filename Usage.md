@@ -13,6 +13,10 @@
     * [Run from a selected line](#run-from-a-selected-line)
     * [Settings](#editor-settings)
   * [Designer](#designer)
+    * [Adding shapes from clipart library](#adding-shapes-from-clipart-library)
+    * [Importing SVG, DXF or Carbide Create files](#importing-svg--dxf--or-carbide-create-files)
+    * [Trace bitmap images](#trace-bitmap-images)
+    * [Adding text](#adding-text)
   * [Gamepad and Joystick](#gamepad-and-joystick)
   * [Pendant](#pendant)
 
@@ -127,9 +131,29 @@ The editor will be shown by default when opening gcode files, this behavior can 
 <img alt="Disable editor" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-disable-settings.png" width="600"/>
 
 ## Designer
-The designer allows you to draw simple vector graphics and/or import SVG or DXF-files where you can also assign toolpath operations to each shape. The designer is intended to be a quick way to generate gcode and to get started with your machine.
+The designer is a really simple CAD/CAM tool which allows you to draw simple vector graphics and/or import SVG or DXF-files. The shapes will then be assigned to toolpath operations. The designer is intended to be a quick way to generate gcode and to get started with your machine.
 
-<img alt="Designer" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/2.0_platform_designer.png" width="600"/>
+<img alt="Designer" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/2.0_platform_designer.png" width="800"/>
+
+### Adding shapes from clipart library
+The clipart library contains hundreds of symbols and pictures that can be easily added to your design:
+
+<img alt="Importing clipart" src="https://user-images.githubusercontent.com/8962024/171702760-d597b30f-1646-459e-8b02-4ae086af4af9.gif" width="800"/>
+
+### Importing SVG-, DXF- or Carbide Create files
+With a design open, click the import button and select a file to import it:
+
+<img alt="Importing SVG, DXF or Carbide Create files" src="https://user-images.githubusercontent.com/8962024/171700736-7ff10991-9d71-42c1-bca3-6dab14720d2e.gif" width="800"/>
+
+### Trace bitmap images
+With the trace tool, bitmap images can be imported into vector graphics
+
+<img alt="Trace bitmap images" src="https://user-images.githubusercontent.com/8962024/171716179-a8074351-569a-4483-8439-59c78028b8d7.gif" width="800"/>
+
+### Adding text
+Adding text can be done using the text tool:
+
+<img alt="Adding text" src="https://user-images.githubusercontent.com/8962024/171719053-779ec67c-2dbd-415e-a685-33ee832e0e57.gif" width="800"/>
 
 ## Gamepad and Joystick
 
