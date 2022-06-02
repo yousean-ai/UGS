@@ -22,17 +22,19 @@
   * Mirror gcode model
   * Move gcode model to zero location
 * **Designer editor**
-  * Import SVG files
-  * Import DXF files
-  * Import C2D files (Carbide Create)
-  * Draw simple shapes and text
+  * [Import SVG files](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#importing-svg--dxf--or-carbide-create-files)
+  * [Import DXF files](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#importing-svg--dxf--or-carbide-create-files)
+  * [Import C2D files (Carbide Create)](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#importing-svg--dxf--or-carbide-create-files)
+  * Draw simple shapes
+  * [Draw text](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#adding-text)
   * Cut shape with either a pocket-, outline-, inside- or on line operation with a given depth
   * Move, scale, rotate and mirror shapes
   * Intersect, union and subtract shapes with each other
   * Undo/Redo for all actions
   * Manually setting a shapes position, size and rotation
   * Multiply selected shapes into a grid
-  * Import shapes from a clipart library with hundreds of images
+  * [Import shapes from a clipart library with hundreds of images](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#adding-shapes-from-clipart-library)
+  * [Tracing bitmap images](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#trace-bitmap-images)
 * **Configurable g-code optimization**
   * Remove comments
   * Truncate decimal precision to configurable amount
