@@ -1,4 +1,5 @@
 ## Installing UGS Platform
+<img alt="UGS Platform" src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/pictures/2.0_platform_ugs_platform.png" width="500" />
 
 * Download **UGS Platform** for your OS from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Unpack the zip package
@@ -6,6 +7,7 @@
 
 
 ## Installing UGS Classic
+<img alt="UGS Classic" src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/pictures/1.0.6_command_table.png" width="400" />
 
 ### Windows
 * Download and install **Java 8** from [here](https://java.com/en/download/)
