@@ -131,7 +131,7 @@ The editor will be shown by default when opening gcode files, this behavior can 
 <img alt="Disable editor" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-disable-settings.png" width="600"/>
 
 ## Designer
-The designer is a really simple CAD/CAM tool which allows you to draw simple vector graphics and/or import SVG or DXF-files. The shapes will then be assigned to toolpath operations. The designer is intended to be a quick way to generate gcode and to get started with your machine.
+The designer is a really simple CAD/CAM tool which allows you to draw simple vector graphics or import SVG, DXF or [Carbide Create](https://cutrocket.com/)-files. The shapes can then be assigned to a tool path operation. The designer is intended to be a quick way to generate gcode and to get started with your machine.
 
 <img alt="Designer" src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/2.0_platform_designer.png" width="800"/>
 
