@@ -23,7 +23,6 @@ different softwares and their support for different file formats.
 | [Templatemaker](https://www.templatemaker.nl/)                 | Web   | Free to use | | :heavy_check_mark: | | | :heavy_check_mark:| |
       
 _* **OS:** L=Linux, M=MacOSX, W=Windows_ <br/>
-_* **Controllers:** G=GRBL, T=TinyG, G2=g2core, S=Smoothieware, M=Marlin, F=FluidNC_ <br/>
 
 ## Gcode sender
 
