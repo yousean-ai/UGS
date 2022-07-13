@@ -11,6 +11,7 @@
   * Customizable colors
   * Different colors for paths of different types (G0, G1, G2, G3)
   * [Outline gcode](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#outline)
+  * Visualizes up to six axes (XYZABC)
 * **Real time overrides** 
   * Fine tune the feed rate of a running g-code program
   * Fine tune the spindle speed of a running g-code program
@@ -50,6 +51,7 @@
   * Smoothieware
   * TinyG
   * G2core
+  * FluidNC
 * **Operating system independent** - works on many platforms
   * Windows
   * Linux
