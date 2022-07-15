@@ -102,9 +102,10 @@ This happens when UGS connects to a serial port and does not receive the GRBL st
 ### "An unexpected command was completed by the controller"
 UGS has the job to keep track of the state of the controller to make sure it is visualizing the correct position and state. If the software receives a status message for something it did not request it could mean that the controller is responding in a way that UGS do not understand, an unstable connection or that something else is also communicating with the hardware. 
 
-In any case this is bad as UGS no longer know the controller state and further communication could lead to broken hardware or human injury.
+In any case this is bad as UGS no longer know the controller state and further communication could lead to broken hardware or human injury. And it will print the following error message in the console: `[Error] Error while processing response <ok>: An unexpected command was completed by the controller.`
 
-A common cause is offline controllers which sends its own commands that UGS does not know about. A simple solution is to just disconnect it: 
+A common cause is offline controllers which sends its own commands that UGS does not know about. A simple solution is to just disconnect it:
+ 
 ![image](https://user-images.githubusercontent.com/8962024/179272030-b9017ce1-6775-48bf-96f9-44df86a4afe8.png)
 
 ### Other problems
