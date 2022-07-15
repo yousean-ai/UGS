@@ -91,16 +91,24 @@ In some cases the visualizer shows the gcode all distorted and not at all expect
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/8962024/165678900-464e4ff4-027d-4af7-9852-1835c6c104ba.png">
 
 
-### Other problems
-If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](Configuration#log-files) depending on your OS.
-
-## "Grbl has not finished booting."
+### "Grbl has not finished booting."
 This happens when UGS connects to a serial port and does not receive the GRBL startup string. Typically this is caused by a configuration problem and can be solved by one of the following:
 
 * Check the baud rate is 115200, or 9600 for very old versions of grbl.
 * Make sure you are connecting to the correct port.
 * Make sure you have installed any drivers required for your controller.
 * Make sure GRBL is properly flashed on your controller.
+
+### "An unexpected command was completed by the controller"
+UGS has the job to keep track of the state of the controller to make sure it is visualizing the correct position and state. If the software receives a status message for something it did not request it could mean that the controller is responding in a way that UGS do not understand, an unstable connection or that something else is also communicating with the hardware. 
+
+In any case this is bad as UGS no longer know the controller state and further communication could lead to broken hardware or human injury.
+
+A common cause is offline controllers which sends its own commands that UGS does not know about. A simple solution is to just disconnect it: 
+![image](https://user-images.githubusercontent.com/8962024/179272030-b9017ce1-6775-48bf-96f9-44df86a4afe8.png)
+
+### Other problems
+If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](Configuration#log-files) depending on your OS.
 
 ## Program Slows Down and Send Freezes
 If you notice slowness while running your program, it may mean UGS is running out of available memory. There are a couple things to try:
