@@ -72,6 +72,10 @@ All panels and windows can be resized and moved to different locations by draggi
 
 ![Resizing windows](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/2.0_platform_resizing_windows.gif)
 
+### Disable the Welcome tab
+To disable the welcome tab you need to uncheck this checkbox:
+![image](https://user-images.githubusercontent.com/8962024/181166725-f1366424-3d2d-4ec3-afcd-1e4f4c4bd790.png)
+
 ### Configuring the visualizer colors
 TBD
 
