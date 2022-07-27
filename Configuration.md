@@ -74,7 +74,14 @@ All panels and windows can be resized and moved to different locations by draggi
 
 #### Disable the Welcome tab
 To disable the welcome tab you need to uncheck this checkbox:
+
 ![image](https://user-images.githubusercontent.com/8962024/181166725-f1366424-3d2d-4ec3-afcd-1e4f4c4bd790.png)
+
+#### Editor settings ####
+The editor will be shown by default when opening gcode files, this behavior can be disabled in the settings by unchecking the option Show editor when opening g-code files:
+
+<img src="https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/editor-disable-settings.png" width="80%" />
+
 
 ### Configuring the visualizer colors
 TBD
