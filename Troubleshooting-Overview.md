@@ -47,6 +47,9 @@ On some Linux systems there might be problems with rendering fonts. See discussi
 This may be fixed by setting an environment variable:
 ```sudo echo "_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true' " >> /etc/environment```
 
+### Visualizer and GUI not rendering correctly
+On some Linux systems there may be issues with rendering the Visualizer and GUI when not running UGS Platform not in software rendering mode as described in [#1607](https://github.com/winder/Universal-G-Code-Sender/issues/1607).  
+Try starting it using `LIBGL_ALWAYS_SOFTWARE=true ./ugsplatform`.
 
 ### Error message "Assistive Technology not found"
 On KDE Neon 5.16 with OpenJDK 1.8.0_212 a user got the follwing error message (https://github.com/winder/Universal-G-Code-Sender/issues/1267):
