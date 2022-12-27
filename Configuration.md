@@ -58,7 +58,15 @@ The UGS platform settings is located in your home directory. These settings cont
 * **Linux**: ~/.ugsplatform
 
 ### Log files
-When creating an issue it is often helpful for us to trace the error in your log file. These are located here:
+When creating an issue it is often helpful for us to trace the error in your log file. 
+
+For UGS 2.0.13 or later they are located here:
+* **Windows 7 and higher**: C:/Users/[your username>]/AppData/Roaming/ugsplatform/var/log/messages.log</li>
+* **Windows XP**: C:/Documents and Settings/[your username>]/AppData/Roaming/ugsplatform/var/log/messages.log</li>
+* **Mac**: ~/Library/Application Support/ugsplatform/var/log/messages.log</li>
+* **Linux**: ~/.cache/ugsplatform/var/log/messages.log</li>
+
+For UGS 2.0.12 or earlier are located here:
 * **Windows 7 and higher**: C:/Users/[your username>]/.ugsplatform/2.X/dev/var/log/messages.log
 * **Windows XP**: C:/Documents and Settings/[your username>]/.ugsplatform/2.X/dev/var/log/messages.log
 * **Mac**: ~/Library/Application Support/ugsplatform/2.X/dev/var/log/messages.log
