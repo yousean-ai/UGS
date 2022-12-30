@@ -53,6 +53,14 @@ It contains `UniversalGcodeSender.json` which holds the settings such as: jog fe
 * **Linux**: ~/.ugs 
 
 The UGS platform settings is located in your home directory. These settings contains the positions of the windows, and which modules you have loaded:
+
+For UGS 2.0.13 or later they are located here:
+* Windows 7 and higher: C:/Users/[your username>]/AppData/Roaming/ugsplatform
+* Windows XP: C:/Documents and Settings/[your username>]/AppData/Roaming/ugsplatform
+* Mac: ~/Library/Application Support/ugsplatform
+* Linux: ~/.cache/ugsplatform
+
+For UGS 2.0.12 or earlier they are located here:
 * **Windows**: C:/users/[your username>]/.ugsplatform
 * **Mac**: ~/Library/Application Support/ugsplatform
 * **Linux**: ~/.ugsplatform
