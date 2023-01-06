@@ -1,9 +1,27 @@
 ## Installing UGS Platform
-<img alt="UGS Platform" src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/pictures/2.0_platform_ugs_platform.png" width="500" />
 
-* Download **UGS Platform** for your OS from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
-* Unpack the zip package
+### Windows
+
+* Download `UGS Platform` for Windows from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
+* Unpack the `.zip`-package
+* Start the program ```bin/ugsplatform32.exe```
+
+### Linux
+
+* Download `UGS Platform` for Linux from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
+* Unpack the `.tar.gz`-package
 * Start the program ```bin/ugsplatform```
+
+![install-ugs-linux](https://user-images.githubusercontent.com/8962024/210969002-cd873040-ff47-4638-a0b5-ff1709390017.gif)
+
+
+### Mac OSX
+* Download `UGS Platform` for MacOSX from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
+* Double click the `.dmg`-file.
+* Drag the "Universal Gcode Platform" to your applications folder.
+* Find the application in the Application folder and right click to open.<br/>There might be a warning that the application is not signed which you need to ignore.
+
+![install-ugs-macosx](https://user-images.githubusercontent.com/8962024/210966015-bab21f42-1ad1-422f-98a4-d05c4735b02f.gif)
 
 
 ## Installing UGS Classic
