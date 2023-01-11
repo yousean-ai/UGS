@@ -58,7 +58,7 @@ For UGS 2.0.13 or later they are located here:
 * **Windows 7 and higher**: C:/Users/[your username>]/AppData/Roaming/ugsplatform
 * **Windows XP**: C:/Documents and Settings/[your username>]/AppData/Roaming/ugsplatform
 * **Mac**: ~/Library/Application Support/ugsplatform
-* **Linux**: ~/.cache/ugsplatform
+* **Linux**: ~/.ugsplatform and ~/.cache/ugsplatform
 
 For UGS 2.0.12 or earlier they are located here:
 * **Windows**: C:/users/[your username>]/.ugsplatform
