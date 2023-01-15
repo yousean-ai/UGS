@@ -11,6 +11,7 @@
   * [GCode Editor](#gcode-editor)
     * [Error highlighting](#error-highlighting)
     * [Run from a selected line](#run-from-a-selected-line)
+    * [Follow executed gcode](#follow-the-executed-gcode)
     * [Settings](#editor-settings)
   * [Designer](#designer)
     * [Adding shapes from clipart library](#adding-shapes-from-clipart-library)
@@ -124,6 +125,12 @@ When connected to a controller it can also highlight and display warnings for gc
 If a job has failed or needs to be rerun from a certain point in the gcode file you can simply select the line in the gcode file and choose "Run From...". The gcode model will be rerendered excluding the skipped lines. 
 
 ![Run from](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/run_from.gif)
+
+### Follow the executed gcode
+
+There is a toggle button in the editor that will start following the executed gcode. Simply press the button follow:
+
+![Follow gcode](https://user-images.githubusercontent.com/8962024/212558669-a3139273-20bb-4bec-9cb3-f7d33139be6f.gif)
 
 ### Editor settings
 The editor will be shown by default when opening gcode files, this behavior can be disabled in the settings by unchecking the option ```Show editor when opening g-code files```:
