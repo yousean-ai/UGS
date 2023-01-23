@@ -15,7 +15,9 @@
 ![install-ugs-linux](https://user-images.githubusercontent.com/8962024/210969002-cd873040-ff47-4638-a0b5-ff1709390017.gif)
 
 ### Raspberry PI
-Use `Raspberry Pi OS 32-bit`, version Bullseye or later found [here](https://www.raspberrypi.com/software/operating-systems/)
+Use `Raspberry Pi OS 32-bit`, version Bullseye or later found [here](https://www.raspberrypi.com/software/operating-systems/).<br>
+Note that `Raspberry Pi OS 64-bit` **will not work.**
+
 * Download `UGS Platform` for Raspberry PI from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Unpack the `.tar.gz`-package
 * Start the program ```bin/ugsplatform```
