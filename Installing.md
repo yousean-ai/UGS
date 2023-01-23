@@ -74,6 +74,3 @@ Java HotSpot(TM) Client VM (build 25.65-b01, mixed mode)
 * Run the start script ```start.sh```
 
 
-### Raspberry PI (with raspbian)
-Refer to this page: [[Raspberry Pi]]
-
