@@ -4,7 +4,7 @@
 
 * Download `UGS Platform` for Windows from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Unpack the `.zip`-package
-* Start the program ```bin/ugsplatform32.exe```
+* Start the program ```bin/ugsplatform64.exe```
 
 ![install-ugs-windows](https://user-images.githubusercontent.com/8962024/214525130-2151fa86-0798-4bf4-a8d9-58c8ab0770f9.gif)
 
