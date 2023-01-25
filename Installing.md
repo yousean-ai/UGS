@@ -21,7 +21,7 @@
 </details>
 
 <details>
-<summary>Windows</summary>
+<summary>Raspberry Pi OS</summary>
 
 Use `Raspberry Pi OS 32-bit`, version Bullseye or later found [here](https://www.raspberrypi.com/software/operating-systems/).<br>
 Note that `Raspberry Pi OS 64-bit` **will not work.**
