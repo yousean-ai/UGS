@@ -3,15 +3,15 @@
   * [Actions](#actions)
     * [Machine actions](#machine-actions)
     * [Program actions](#program-actions)
-    * [Macros](#macros)
+    * [Editor](#editor-actions)
   * [Toolbox](#toolbox)
   * [Toolbar](#toolbar)
   * [Digital read-out](#digital-read-out)
   * [Resizing windows](#resizing-windows)
   * [GCode Editor](#gcode-editor)
+    * [Actions](#gcode-editor-actions)
     * [Error highlighting](#error-highlighting)
     * [Run from a selected line](#run-from-a-selected-line)
-    * [Follow executed gcode](#follow-the-executed-gcode)
     * [Settings](#editor-settings)
   * [Designer](#designer)
     * [Adding shapes from clipart library](#adding-shapes-from-clipart-library)
@@ -50,32 +50,58 @@ Actions are small commands that can be either sent to the controller or for cont
 ### Machine actions
 Machine actions are used for sending specific commands to the controller. This could be for resetting alarms or setting the controller work position. These actions will be enabled/disabled depending on the state of the controller. For instance most actions will be disabled when running a gcode program or some actions will not be available when in an alarm state. Below are some of the most important actions to know about.
 
-#### ![Reset zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/resetzero.svg)&nbsp;Reset zero 
-This will set the current machine position as the new zeroed work coordinate. It will get a work coordinate reference point [X0, Y0, Z0]. 
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/resetzero.svg"/>&nbsp;&nbsp;<b>Reset zero</b></summary><br/>
 
-#### ![Return to zero](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/zero.svg)&nbsp;Return to zero 
+This will set the current machine position as the new zeroed work coordinate. It will get a work coordinate reference point [X0, Y0, Z0]. 
+</details>
+
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/zero.svg"/>&nbsp;&nbsp;<b>Return to zero</b></summary><br/>
+
 An action that will move the machine to the zero location [X0, Y0, Z0] in the current work coordinates. 
 If the current Z position is equal to or below a _safe height_ it will first be moved to the Z safe height to avoid scratching the work piece. The safe height can be set in the "Sender settings".
 ![Sender settings](https://user-images.githubusercontent.com/8962024/147445951-83785274-8a1c-4ed7-b0d1-a0724c8eed13.png)
+</details>
 
-#### ![Soft Reset](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/reset.svg)&nbsp;Soft Reset
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/reset.svg"/>&nbsp;&nbsp;<b>Soft Reset</b></summary><br/>
+
 An action that will reset the controller without switching off its power. This can be needed on some controllers to resolve a specific alarm.
+</details>
 
-#### ![Unlock](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/lock.svg)&nbsp;Unlock
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/lock.svg"/>&nbsp;&nbsp;<b>Unlock</b></summary><br/>
+
 An action that will resolve a specific alarm state, for instance if the machine has been triggered with a hard limit which would indicate that the controller no longer know its current position and it would be unsafe to continue further movement. In this case it needs the user intervention.
+</details>
 
-#### ![Home](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/home.svg)&nbsp;Home
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/home.svg"/>&nbsp;&nbsp;<b>Home</b></summary><br/>
+
 An action that will perform a homing sequence by moving the machine to its absolute zero position, triggering the homing/hard limit switches. After this the machine reference coordinates are zeroed.
+</details>
 
 ### Program actions
 Program actions is generally only available when there is an loaded gcode file and allows for basic manipulation of the program.
 
-#### ![Outline](https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/outline.svg)&nbsp;Outline
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/outline.svg"/>&nbsp;&nbsp;<b>Outline</b></summary><br/>
+
 This will move the machine around the currently loaded model outlining the work to be done. This can be useful if you want to check if the material is correctly positioned or if the tool will clear the fixtures. This action will only move the machine in X and Y coordinates at the current set Z height.
 ![Outline example](https://user-images.githubusercontent.com/8962024/71783552-96f86200-2fe8-11ea-95cc-55d10e38bda3.gif)
+</details>
 
+### Editor<a id="editor-actions"></a>
 
-### Macros
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-gcode-editor/src/main/resources/icons/follow.svg"/>&nbsp;&nbsp;<b>Follow gcode</b></summary><br/>
+
+A toggle button which is available in the editor and used to toggle if the editor should select the currently sent gcode.
+
+![Follow gcode](https://user-images.githubusercontent.com/8962024/212558669-a3139273-20bb-4bec-9cb3-f7d33139be6f.gif)
+</details>
+
 
 ## Toolbox
 The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use are available. If an action can't be used at the moment it will be greyed out, ie when no machine is connected or a file loaded.
@@ -125,12 +151,6 @@ When connected to a controller it can also highlight and display warnings for gc
 If a job has failed or needs to be rerun from a certain point in the gcode file you can simply select the line in the gcode file and choose "Run From...". The gcode model will be rerendered excluding the skipped lines. 
 
 ![Run from](https://github.com/winder/Universal-G-Code-Sender/raw/master/pictures/run_from.gif)
-
-### Follow the executed gcode
-
-There is a toggle button in the editor that will start following the executed gcode. Simply press the button follow:
-
-![Follow gcode](https://user-images.githubusercontent.com/8962024/212558669-a3139273-20bb-4bec-9cb3-f7d33139be6f.gif)
 
 ### Editor settings
 The editor will be shown by default when opening gcode files, this behavior can be disabled in the settings by unchecking the option ```Show editor when opening g-code files```:
