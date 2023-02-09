@@ -53,7 +53,11 @@ Machine actions are used for sending specific commands to the controller. This c
 <details>
 <summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/resetzero.svg"/>&nbsp;&nbsp;<b>Reset zero</b></summary><br/>
 
-This will set the current machine position as the new zeroed work coordinate. It will get a work coordinate reference point [X0, Y0, Z0]. 
+This will zero the current work coordinate to point [X0, Y0, Z0]. 
+
+For detailed instructions on how CNC coordinate systems work, check out this video:
+[Understanding G-code Coordinate Systems](https://youtu.be/fGtbkVJBXyE)
+
 </details>
 
 <details>
@@ -93,6 +97,7 @@ This will move the machine around the currently loaded model outlining the work 
 </details>
 
 ### Editor<a id="editor-actions"></a>
+Editor actions will be shown in the editor toolbar for a currently loaded gcode file.
 
 <details>
 <summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-gcode-editor/src/main/resources/icons/follow.svg"/>&nbsp;&nbsp;<b>Follow gcode</b></summary><br/>
@@ -102,6 +107,33 @@ A toggle button which is available in the editor and used to toggle if the edito
 ![Follow gcode](https://user-images.githubusercontent.com/8962024/212558669-a3139273-20bb-4bec-9cb3-f7d33139be6f.gif)
 </details>
 
+
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-gcode-editor/src/main/resources/icons/mirror.svg"/>&nbsp;&nbsp;<b>Mirror</b></summary><br/>
+
+This will invert the currently loaded gcode and mirror it. Note that any commands that uses arcs (G2/G3) will be converted to small line segments.
+</details>
+
+
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-gcode-editor/src/main/resources/icons/rotate_left.svg"/>&nbsp;&nbsp;<b>Rotate left</b></summary><br/>
+
+This will rotate the currently loaded gcode by 90 degrees counter clockwise. Note that any commands that uses arcs (G2/G3) will be converted to small line segments.
+</details>
+
+
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-gcode-editor/src/main/resources/icons/rotate_right.svg"/>&nbsp;&nbsp;<b>Rotate right</b></summary><br/>
+
+This will rotate the currently loaded gcode by 90 degrees clockwise. Note that any commands that uses arcs (G2/G3) will be converted to small line segments.
+</details>
+
+
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-gcode-editor/src/main/resources/icons/translate.svg"/>&nbsp;&nbsp;<b>Translate to zero</b></summary><br/>
+
+This will move the currently loaded gcode so that it starts at zero position. Note that any commands that uses arcs (G2/G3) will be converted to small line segments.
+</details>
 
 ## Toolbox
 The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use are available. If an action can't be used at the moment it will be greyed out, ie when no machine is connected or a file loaded.
