@@ -3,6 +3,7 @@
   * [Setup Wizard](#setup-wizard)
 * [UGS Platform](#configuring-ugs-platform)
   * [Configuration files](#configuration-files)
+  * [Language](#language)
   * [Log files](#log-files)
   * [Toolbar](#configuring-the-toolbar)
   * [Panels and windows](#configuring-panels-and-windows)
@@ -12,6 +13,7 @@
   * [Gamepad and joystick](#gamepad-and-joystick)
 * [UGS Classic](#configuring-ugs-classic)
   * [Configuration files](#configuration-files-1)
+  * [Language](#language-1)
 
 ## Configuring the Controller
 
@@ -64,6 +66,11 @@ For UGS 2.0.12 or earlier they are located here:
 * **Windows**: C:/users/[your username>]/.ugsplatform
 * **Mac**: ~/Library/Application Support/ugsplatform
 * **Linux**: ~/.ugsplatform
+
+### Language
+To change the language in UGS. Open `Preferences`, select `UGS`, `Sender Options` and finally set your language. Click `Apply` and restart UGS for changes to be applied.
+
+<img src="https://user-images.githubusercontent.com/8962024/220109180-0afc492e-6bc4-4ea8-92d1-f81b3a308a40.png" width=500 alt="UGS platform language settings"/>
 
 ### Log files
 When creating an issue it is often helpful for us to trace the error in your log file. 
@@ -124,3 +131,9 @@ The UGS settings (which is also common with the UGS Platform edition) is located
 * **Windows**: c:/users/[your username]/.ugs
 * **Mac**: ~/Library/Preferences/ugs
 * **Linux**: ~/.ugs 
+
+### Language
+Open `Sender Settings` in the Settings menu, and select your language. Restart for changes to be applied.
+
+<img src="https://user-images.githubusercontent.com/8962024/220109294-df85cda6-26eb-4dc3-82a8-7241f7a0493c.png" width=350 alt="UGS classic settings"/><br/>
+<img src="https://user-images.githubusercontent.com/8962024/220109437-7fd19b7f-be28-472a-baf1-0c0f6724e445.png" width=300 alt="UGS classic language settings"/>
