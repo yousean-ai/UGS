@@ -7,6 +7,7 @@
   * [Toolbox](#toolbox)
   * [Toolbar](#toolbar)
   * [Digital read-out](#digital-read-out)
+  * [Overrides](#overrides)
   * [Resizing windows](#resizing-windows)
   * [GCode Editor](#gcode-editor)
     * [Actions](#gcode-editor-actions)
@@ -157,6 +158,11 @@ The Digital read-out (or Controller state) panel displays the current status of 
 * Shows the current feed rate and spindle speed
 * Shows the current GCode state (eg. the units currently being used G20/G21)
 * Shows a alarm with the triggered limit switches
+
+## Overrides
+With the overrides plugin you can tweak the running session of a gcode program in real time. You can speed up/down the feed rate, spindle and the fast movement. To use, open the menu `Window -> Overrides`.
+
+<img src="https://user-images.githubusercontent.com/8962024/220111717-e2a6b93c-c193-44f9-9bfe-105c8436f46f.png" alt="Overrides" width=400/>
 
 ## Resizing windows
 All windows and modules can be resized and moved to different locations.
