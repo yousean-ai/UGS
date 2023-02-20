@@ -10,18 +10,18 @@
   * Right click to set the current work position
   * Customizable colors
   * Different colors for paths of different types (G0, G1, G2, G3)
-  * [Outline gcode](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#outline)
+  * [Outline gcode](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#program-actions)
   * Visualizes up to six axes (XYZABC)
 * **Real time overrides** 
-  * Fine tune the feed rate of a running g-code program
+  * [Fine tune the feed rate of a running g-code program](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#overrides)
   * Fine tune the spindle speed of a running g-code program
 * **G-code editor**
   * Highlight selected rows in the Visualizer
-  * Show the selected row in the Visualizer
+  * [Show the selected row in the Visualizer](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#editor)
   * [Right click to run from selected row](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#run-from-a-selected-line)
-  * Rotate gcode model
-  * Mirror gcode model
-  * Move gcode model to zero location
+  * [Rotate gcode model](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#editor)
+  * [Mirror gcode model](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#editor)
+  * [Move gcode model to zero location](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#editor)
 * **Designer editor**
   * [Import SVG files](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#importing-svg--dxf--or-carbide-create-files)
   * [Import DXF files](https://github.com/winder/Universal-G-Code-Sender/wiki/Usage#importing-svg--dxf--or-carbide-create-files)
