@@ -1,60 +1,80 @@
-## Is the problem UGS, the controller, or CAM?
+:toc:
+
+== Is the problem UGS, the controller, or CAM?
 
 Many issues and requests for help are not actually specific to UGS, some of these are related to connecting to the controller, while others are CAM related.
 
 UGS has three simple primary missions:
-1. Take G-code from your computer and send it to your controller.
-1. Send signals to your controller for setting up jobs. Examples: Homing, Jogging and setting Work Coordinate System (WCS) manually.
-1. Displaying and changing controller status. Examples: seeing alarm statuses and clearing them, toggling coolant, or adjusting speed+feed overrides, or pausing the program.
+
+- Take G-code from your computer and send it to your controller.
+- Send signals to your controller for setting up jobs. Examples: Homing, Jogging and setting Work Coordinate System (WCS) manually.
+- Displaying and changing controller status. Examples: seeing alarm statuses and clearing them, toggling coolant, or adjusting speed+feed overrides, or pausing the program.
 
 UGS does have additional secondary missions through plugins. Some of these are:
-1. Dowel pin creation.
-1. Probe wizard to automatically set WCS.
-1. Workflow manager to help with tool changes between separate programs.
+
+- Dowel pin creation.
+- Probe wizard to automatically set WCS.
+- Workflow manager to help with tool changes between separate programs.
 
 If your problem doesn't fit into the above, it may be that the problem is actually outside of UGS. The following table can help you figure out where to look:
 
-| Description | Likely Components |
-| --- | --- |
-| Strange motion | Controller |
-| Work Coordinate System changes between restarts of controller | Controller |
-| Work Coordinate System changes between programs | CAM or Controller |
-| [Unable to connect to controller](/winder/Universal-G-Code-Sender/wiki/Connecting-the-Controller) | Controller |
+[cols="1,1"]
+|===
+|Description | Likely Components
 
-## UGS is not starting properly
-### Recent Upgrade - Reset Preferences
+|Strange motion
+|Controller
+
+|Work Coordinate System changes between restarts of controller
+|Controller
+
+|Work Coordinate System changes between programs
+|CAM or Controller
+
+|link:https://github.com/winder/Universal-G-Code-Sender/wiki/Connecting-the-Controller[Unable to connect to controller]
+|Controller
+|===
+
+== UGS is not working properly
+=== Recent Upgrade - Reset Preferences
 If you have recently upgraded UGS and it has been a long time since the previous upgrade, sometimes the preference files need to be reset. Preferences are kept in a user directory called `.ugsplatform` for `v2.0` and `.ugs` for `v1.0`, and deleting (or renaming) this directory will reset UGS back to the defaults.
 
-The exact path varies between the major operating systems because of where they keep user data. Check out these pages for where the settings are located:
-* [UGS Platform](Configuration#configuring-ugs-platform)
-* [UGS Classic](Configuration#configuring-ugs-classic)
+The exact path varies between the major operating systems because of where they keep user data. 
+Check out these pages for where the settings are located:
 
-### Java Version
-Currently UGS Platform requires Java 8. More recent versions of Java may or may not work. Ticket [#1151](https://github.com/winder/Universal-G-Code-Sender/issues/1151) shows how to change Java versions for several operating systems.
+* link:Configuration#configuring-ugs-platform[UGS Platform]
+* link:Configuration#configuring-ugs-classic[UGS Classic]
 
-### Antivirus software
-There has been cases where the antivirus software caused a problem with a popup that wasn't able to close. The issue was resolved by disabling the antivirus software: https://github.com/winder/Universal-G-Code-Sender/issues/1237
+=== Java Version
+UGS Platform comes bundled with a tested Java version so there is no need to install it separatly. Currently UGS requires Java 8 or Java 13, but some people have tried it with more recent versions of Java which may not work. Issue link:https://github.com/winder/Universal-G-Code-Sender/issues/1151[#1151] shows how to change Java versions for several operating systems.
 
-Errors have been reported with Antivirus softwares:
+=== Antivirus software
+There has been cases where the antivirus software caused a problem with a popup that wasn't able to close. The issue was resolved by disabling the antivirus software (link:https://github.com/winder/Universal-G-Code-Sender/issues/1237[#1237]). Errors have been reported with the following Antivirus softwares:
+
 * Comodo
 * Trend Micro
 
-### Bad font rendering
-On some Linux systems there might be problems with rendering fonts. See discussion here for more details: https://github.com/winder/Universal-G-Code-Sender/issues/1622
+=== Bad font rendering
+On some Linux systems there might be problems with rendering fonts (link:https://github.com/winder/Universal-G-Code-Sender/issues/1622[#1622]). This may be fixed by setting an environment variable:
+[,bash]
+----
+sudo echo "_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true' " >> /etc/environment
+----
 
-<img src="https://user-images.githubusercontent.com/8962024/123251537-9b218380-d4eb-11eb-8a97-299913b07de6.png" width="300"/>
+image::https://user-images.githubusercontent.com/8962024/123251537-9b218380-d4eb-11eb-8a97-299913b07de6.png["Bad font rendering", 300]
 
-This may be fixed by setting an environment variable:
-```sudo echo "_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true' " >> /etc/environment```
+=== Visualizer and GUI not rendering correctly
+On some Linux systems there may be issues with rendering the Visualizer and GUI. This is sometimes caused by incompatible graphics card or drivers which will prevent UGS from using hardware accelerated graphics (link:https://github.com/winder/Universal-G-Code-Sender/issues/1607[#1607]). If it still does not work after upgrading/downgrading the graphics drivers there is an option of starting UGS using software rendering using the following command.
 
-### Visualizer and GUI not rendering correctly
-On some Linux systems there may be issues with rendering the Visualizer and GUI when not running UGS Platform not in software rendering mode as described in [#1607](https://github.com/winder/Universal-G-Code-Sender/issues/1607).  
-Try starting it using `LIBGL_ALWAYS_SOFTWARE=true ./ugsplatform`.
+----
+LIBGL_ALWAYS_SOFTWARE=true ./ugsplatform
+----
 
 ### Error message "Assistive Technology not found"
-On KDE Neon 5.16 with OpenJDK 1.8.0_212 a user got the follwing error message (https://github.com/winder/Universal-G-Code-Sender/issues/1267):
+On KDE Neon 5.16 with OpenJDK 1.8.0_212 a user got the follwing error message (link:https://github.com/winder/Universal-G-Code-Sender/issues/1267[#1267]):
 
-```
+[,bash]
+----
 ./start.sh 
 Exception in thread "main" java.awt.AWTError: Assistive Technology not found: org.GNOME.Accessibility.AtkWrapper
         at java.awt.Toolkit.loadAssistiveTechnologies(Toolkit.java:807)
@@ -71,30 +91,31 @@ Exception in thread "main" java.awt.AWTError: Assistive Technology not found: or
         at javax.swing.UIManager.maybeInitialize(UIManager.java:1426)
         at javax.swing.UIManager.getInstalledLookAndFeels(UIManager.java:419)
         at com.willwinder.universalgcodesender.MainWindow.main(MainWindow.java:180)
-```
+----
 
 To solve this, edit the accessibility.properties file for OpenJDK:
-```
+[,bash]
+----
 sudo vim /etc/java-8-openjdk/accessibility.properties
-```
+----
 
 Comment out the following line:
-```
+[,bash]
+----
 assistive_technologies=org.GNOME.Accessibility.AtkWrapper
-```
+----
 
-### UGS is not showing all Windows
+=== UGS is not showing all Windows
 Sometimes the configuration gets corrupt and some of the Windows is hidden or buttons in the toolbars is missing. As a last resort you can correct this using "Reset Windows".
 
-<img width="676" alt="image" src="https://user-images.githubusercontent.com/8962024/159331187-76f8a1c3-34f2-490d-bb54-0ba4f1238689.png">
+image::https://user-images.githubusercontent.com/8962024/159331187-76f8a1c3-34f2-490d-bb54-0ba4f1238689.png["Reset windows", 676]
 
 ### The Visualizer shows distorted gcode
-In some cases the visualizer shows the gcode all distorted and not at all expected. This is likely caused by bad graphics drivers. Try upgrading or downgrading the driver (#1868):
+In some cases the visualizer shows the gcode all distorted and not at all expected. This is likely caused by bad graphics drivers. Try upgrading or downgrading the driver (link:https://github.com/winder/Universal-G-Code-Sender/issues/1868[#1868]):
 
-<img width="676" alt="image" src="https://user-images.githubusercontent.com/8962024/165678900-464e4ff4-027d-4af7-9852-1835c6c104ba.png">
+image::https://user-images.githubusercontent.com/8962024/165678900-464e4ff4-027d-4af7-9852-1835c6c104ba.png["Distorted gcode", 676]
 
-
-### "Grbl has not finished booting."
+=== "Grbl has not finished booting."
 This happens when UGS connects to a serial port and does not receive the GRBL startup string. Typically this is caused by a configuration problem and can be solved by one of the following:
 
 * Check the baud rate is 115200, or 9600 for very old versions of grbl.
@@ -108,17 +129,17 @@ UGS has the job to keep track of the state of the controller to make sure it is 
 In any case this is bad as UGS no longer know the controller state and further communication could lead to broken hardware or human injury. And it will print the following error message in the console: `[Error] Error while processing response <ok>: An unexpected command was completed by the controller.`
 
 A common cause is offline controllers which sends its own commands that UGS does not know about. A simple solution is to just disconnect it:
- 
-![image](https://user-images.githubusercontent.com/8962024/179272030-b9017ce1-6775-48bf-96f9-44df86a4afe8.png)
 
-### Other problems
+image::https://user-images.githubusercontent.com/8962024/179272030-b9017ce1-6775-48bf-96f9-44df86a4afe8.png["Offline controller", 400]
+
+=== Other problems
 If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](Configuration#log-files) depending on your OS.
 
-## Program Slows Down and Send Freezes
+== Program Slows Down and Send Freezes
 If you notice slowness while running your program, it may mean UGS is running out of available memory. There are a couple things to try:
 
 * Check the controller settings, and make sure "Arc Expander" is not enabled. This can take a small program and turn it into a very large one by converting arcs into many small movements.
 * Increase the memory allocated to UGS by navigating the the installation directory. There is a folder named etc containing ugsplatform.conf, open this file with a simple text editor and add the parameter `-J-Xmx256m`, or larger.
 
-# Open Issues
-Found a problem? Check the [list of open issues](https://github.com/winder/Universal-G-Code-Sender/issues) and see if someone is already working on it.
+= Open Issues
+Found a problem? Check the link:https://github.com/winder/Universal-G-Code-Sender/issues[list of open issues] and see if someone is already working on it.
