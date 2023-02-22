@@ -1,4 +1,4 @@
-Universal Gcode Sender is a full featured gcode sender platform for Windows/Linux/MacOSX used for interfacing with advanced CNC controllers such as [GRBL](https://github.com/gnea/grbl), [Smoothieware](https://smoothieware.org/), [g2core](https://github.com/synthetos/g2) and [TinyG](https://synthetos.myshopify.com/products/tinyg). It is a self-contained Java application which includes all external dependencies and comes bundled with its own Java for easy installation.
+Universal Gcode Sender is a full featured gcode sender platform for Windows/Linux/MacOSX used for interfacing with advanced CNC controllers such as [GRBL](https://github.com/gnea/grbl), [FluidNC](http://fluidnc.com/), [Smoothieware](https://smoothieware.org/), [g2core](https://github.com/synthetos/g2) and [TinyG](https://synthetos.myshopify.com/products/tinyg). It is a self-contained Java application which includes all external dependencies and comes bundled with its own Java for easy installation.
 
 :clipboard: [Features](Features)
 
