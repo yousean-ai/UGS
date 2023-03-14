@@ -32,13 +32,13 @@ Select the correct hardware in the firmware combo box:
 
 ![Firmware combo box](https://winder.github.io/ugs_website/img/guide/platform/connect_firmware.png)
 
-Refresh the serial ports list and select the correct port for your hardware. If you can't find the correct port in the list, make sure you have the drivers installed.
+In older versions of UGS you need to manually refresh the serial ports list and select the correct port for your hardware. If you can't find the correct port in the list, make sure you have the drivers installed.
 
 ![Serial port](https://winder.github.io/ugs_website/img/guide/platform/connect_serial_port.png)
 
 The ports are usually named like this:
 - **MacOSX**: /dev/tty.usbmodem* or /dev/tty.usbserial*
-- **Linux**: /dev/ttyUSB* or /dev/ttyACM*
+- **Linux**: /dev/ttyUSB* or /dev/ttyACM* (you might have to [assign your account to a group](https://docs.arduino.cc/software/ide-v1/tutorials/Linux#please-read) to be able to access the serial port)
 - **Windows**: COM1, COM2 and so on.
 
 Select the correct baud rate for your controller.
