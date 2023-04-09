@@ -169,6 +169,14 @@ All windows and modules can be resized and moved to different locations.
 
 ![Resizing windows](https://github.com/winder/Universal-G-Code-Sender/blob/master/pictures/2.0_platform_resizing_windows.gif)
 
+By default the layout should look something like this and consist of five default containers. Mostly you can drag windows around and place them where you like. New containers might get created depending how you dock the windows. And the windows should remember their positions.
+
+![image](https://user-images.githubusercontent.com/8962024/230756199-30131bfd-129b-4046-9121-9ff63ff5d63e.png)
+
+There are some restrictions though. The "Editor"-container can not be moved or removed. This houses the windows for any gcode or design file you open (along with the Welcome page). The editor will not remember its position if you try to move them. And any new file will load into the Editor container again. So unlike the other containers, the "Editor" container can never be removed, instead a gray empty area will be shown instead.
+
+If your windows gets messed up you can allways revert to the default by using the menu option `Windows -> Reset windows`
+
 ## GCode Editor
 
 UGS has a built in editor that allows you to open and edit a GCode files.
