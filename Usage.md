@@ -4,6 +4,7 @@
     * [Machine actions](#machine-actions)
     * [Program actions](#program-actions)
     * [Editor](#editor-actions)
+  * [Vizualiser](#visualizer)
   * [Toolbox](#toolbox)
   * [Toolbar](#toolbar)
   * [Digital read-out](#digital-read-out)
@@ -135,6 +136,19 @@ This will rotate the currently loaded gcode by 90 degrees clockwise. Note that a
 
 This will move the currently loaded gcode so that it starts at zero position. Note that any commands that uses arcs (G2/G3) will be converted to small line segments.
 </details>
+
+## Visualizer
+The visualizer will display the loaded gcode file and how it is positioned relative to the machine. To orient the visualizer you can rotate, pan and zoom  with the following methods.
+
+* **Rotating** the model is done by pressing the left mouse button anywhere on the work area.
+* **Panning** is done by pressing the SHIFT and the left mouse button anywhere on the work area.
+* **Zooming** is done by scrolling the mouse wheel.
+
+<img src="https://github.com/winder/Universal-G-Code-Sender/assets/8962024/85e8ca84-16d5-42be-83fc-9a925e815bca" alt="Image of the vizualiser" width=800/>
+
+The machine tool position is represented with a yellow cone and displays its relative position to your work zero position.
+
+![image](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/98a82265-4074-42c7-947b-00a6094091dc)
 
 ## Toolbox
 The toolbox is a window with common actions needed to operate the machine. The actions displayed are customizable so that only the buttons you use are available. If an action can't be used at the moment it will be greyed out, ie when no machine is connected or a file loaded.
