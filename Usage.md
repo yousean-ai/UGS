@@ -4,7 +4,7 @@
     * [Machine actions](#machine-actions)
     * [Program actions](#program-actions)
     * [Editor](#editor-actions)
-  * [Vizualiser](#visualizer)
+  * [Visualizer](#visualizer)
   * [Toolbox](#toolbox)
   * [Toolbar](#toolbar)
   * [Digital read-out](#digital-read-out)
