@@ -137,6 +137,12 @@ This will rotate the currently loaded gcode by 90 degrees clockwise. Note that a
 This will move the currently loaded gcode so that it starts at zero position. Note that any commands that uses arcs (G2/G3) will be converted to small line segments.
 </details>
 
+<details>
+<summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-gcode-editor/src/main/resources/icons/position.svg"/>&nbsp;&nbsp;<b>Insert position</b></summary><br/>
+
+This action will insert the current work position to the currently loaded gcode file at the given position. This action is useful when for instance you want to "teach" the machine to move in a certain pattern. The user needs to make sure that the correct gcode state (G0/G1) is used.
+</details>
+
 ## Visualizer
 The visualizer will display the loaded gcode file and how it is positioned relative to the machine. To orient the visualizer you can rotate, pan and zoom  with the following methods.
 
