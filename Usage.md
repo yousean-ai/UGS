@@ -11,7 +11,6 @@
   * [Overrides](#overrides)
   * [Resizing windows](#resizing-windows)
   * [GCode Editor](#gcode-editor)
-    * [Actions](#gcode-editor-actions)
     * [Error highlighting](#error-highlighting)
     * [Run from a selected line](#run-from-a-selected-line)
     * [Settings](#editor-settings)
