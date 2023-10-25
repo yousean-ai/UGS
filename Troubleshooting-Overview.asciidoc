@@ -133,7 +133,7 @@ A common cause is offline controllers which sends its own commands that UGS does
 image::https://user-images.githubusercontent.com/8962024/179272030-b9017ce1-6775-48bf-96f9-44df86a4afe8.png["Offline controller", 400]
 
 === Other problems
-If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` [can be found at these locations](Configuration#log-files) depending on your OS.
+If UGS is still not starting properly, we encourage gathering and looking through the `messages.log` file for clues, then asking for help on the Google Group, attaching the most recent log / post them to somewhere like Pastebin or create a Github Gist. `messages.log` link:https://github.com/winder/Universal-G-Code-Sender/wiki/Configuration#log-files[can be found at these locations] depending on your OS.
 
 == Program Slows Down and Send Freezes
 If you notice slowness while running your program, it may mean UGS is running out of available memory. There are a couple things to try:
