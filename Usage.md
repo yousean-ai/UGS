@@ -23,7 +23,7 @@
   * [Pendant](#pendant)
 
 # UGS Platform
-The UGS Platform is the next generation of Universal Gcode Sender. It is built ontop of the Netbeans Platform which allows us to leverage its mature modular framework. This platform allows more features to be added without compromising on code quality, or being bogged down by a home grown framework. The Classic GUI is used as a library, so core features benefit both interfaces.
+The UGS Platform is the next generation of Universal Gcode Sender. It is built on top of the Netbeans Platform which allows us to leverage its mature modular framework. This platform allows more features to be added without compromising on code quality, or being bogged down by a home grown framework. The Classic GUI is used as a library, so core features benefit both interfaces.
 
 ## Connecting to the machine
 The first thing you will do after powering up your machine is connecting to your controller using the toolbar at the top of the program.
@@ -42,14 +42,14 @@ The ports are usually named like this:
 - **Windows**: COM1, COM2 and so on.
 
 Select the correct baud rate for your controller.
-- **GRBL** - version 0.9 or later are using 115200, earlier versions are using 9600.
+- **GRBL** - version 0.9 or later use 115200, earlier versions use 9600.
 - **TinyG/g2core** will adapt to the baud rate you are connecting with so it really doesn't matter.
 
 ## Actions
 Actions are small commands that can be either sent to the controller or for controlling specific parts of a loaded gcode program. Most actions can be assigned to a keyboard short cut or be added to the toolbar or [Toolbox](#toolbox).
 
 ### Machine actions
-Machine actions are used for sending specific commands to the controller. This could be for resetting alarms or setting the controller work position. These actions will be enabled/disabled depending on the state of the controller. For instance most actions will be disabled when running a gcode program or some actions will not be available when in an alarm state. Below are some of the most important actions to know about.
+Machine actions are used for sending specific commands to the controller. This could be for resetting alarms or setting the controller work position. These actions will be enabled/disabled depending on the state of the controller. For instance, most actions will be disabled when running a gcode program, or some actions will not be available when in an alarm state. Below are some of the most important actions to know about.
 
 <details>
 <summary>&nbsp;<img src="https://raw.githubusercontent.com/winder/Universal-G-Code-Sender/master/ugs-platform/ugs-platform-ugscore/src/main/resources/resources/icons/resetzero.svg"/>&nbsp;&nbsp;<b>Reset zero</b></summary><br/>
