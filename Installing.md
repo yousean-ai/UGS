@@ -23,10 +23,7 @@
 <details>
 <summary>Raspberry Pi OS</summary>
 
-Use `Raspberry Pi OS 32-bit`, version Bullseye or later found [here](https://www.raspberrypi.com/software/operating-systems/).<br>
-Note that `Raspberry Pi OS 64-bit` **will not work.**
-
-* Download `UGS Platform` for Raspberry PI from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
+* Download `UGS Platform` for Linux ARM or ARM64 (if you are running the 64-bit OS version) from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Unpack the `.tar.gz`-package
 * Start the program ```bin/ugsplatform```
 </details>
@@ -49,7 +46,7 @@ Note that `Raspberry Pi OS 64-bit` **will not work.**
 <details>
 <summary>Windows</summary>
 
-* Download and install **Java 8** from [here](https://java.com/en/download/)
+* Download and install **Java 17** from [here](https://adoptium.net/temurin/releases/?package=jre&version=17&os=windows)
 * Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
 * Unpack the zip package
 * Run the start script ```start.bat```
@@ -58,7 +55,7 @@ Note that `Raspberry Pi OS 64-bit` **will not work.**
 <details>
 <summary>MacOSX</summary>
 
-* Download and install **Java 8** from [here](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html):
+* Download and install **Java 17** from [here](https://adoptium.net/temurin/releases/?package=jre&version=17&os=mac):
 * Download **UGS Classic** from [here](https://github.com/winder/Universal-G-Code-Sender#downloads)
 * Unpack the zip package
 * Run the start script ```start.sh```
@@ -76,16 +73,16 @@ sudo apt-get upgrade
 * Install Java: 
 ```bash
 apt-get update
-apt-get install openjdk-8-jdk
+apt-get install openjdk-17-jdk
 ```
 
-* Make sure your system is using Java 8 (1.8.xx):
+* Make sure your system is using Java 17 (1.17.xx):
 ```bash
 java -version
 ```
 ```
-java version "1.8.0_65"
-Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
+java version "1.17.0_65"
+Java(TM) SE Runtime Environment (build 1.17.0_65-b17)
 Java HotSpot(TM) Client VM (build 25.65-b01, mixed mode)
 ```
 
