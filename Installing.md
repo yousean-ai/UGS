@@ -7,7 +7,8 @@
 * Unpack the `.zip`-package
 * Start the program ```bin/ugsplatform64.exe```
 
-![install-ugs-windows](https://user-images.githubusercontent.com/8962024/214525130-2151fa86-0798-4bf4-a8d9-58c8ab0770f9.gif)
+[![How to install on Windows](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/195c53de-61f5-4af7-b1a8-e17bf6e47591)](https://youtu.be/pVzxDFRGGrc)
+
 </details>
 
 <details>
@@ -17,7 +18,8 @@
 * Unpack the `.tar.gz`-package
 * Start the program ```bin/ugsplatform```
 
-![install-ugs-linux](https://user-images.githubusercontent.com/8962024/210969002-cd873040-ff47-4638-a0b5-ff1709390017.gif)
+[![How to install on Linux](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/e54c256e-21b6-4825-95b8-49dd1bea09a5)](https://youtu.be/kH_cn3uqaNw)
+
 </details>
 
 <details>
