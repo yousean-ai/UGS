@@ -39,7 +39,9 @@
 * Drag the "Universal Gcode Platform" to your applications folder.
 * Find the application in the Application folder and right click to open.<br/>There might be a warning that the application is not signed which you need to ignore.
 
-![install-ugs-macosx](https://user-images.githubusercontent.com/8962024/210966015-bab21f42-1ad1-422f-98a4-d05c4735b02f.gif)
+[![How to install on MacOSX](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/84af8207-4690-4308-b567-e5277dfbfdc2)](https://www.youtube.com/watch?v=-iNZ1SIsly4)
+
+
 </details>
 
 
