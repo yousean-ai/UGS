@@ -1,7 +1,4 @@
-## UGS Platform
-
-<details>
-<summary>Windows</summary>
+## Installing on Windows
 
 * Download `UGS Platform` for Windows from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Unpack the `.zip`-package
@@ -9,10 +6,9 @@
 
 [![How to install on Windows](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/195c53de-61f5-4af7-b1a8-e17bf6e47591)](https://youtu.be/pVzxDFRGGrc)
 
-</details>
 
-<details>
-<summary>Linux</summary>
+
+## Installing on Linux
 
 * Download `UGS Platform` for Linux from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Unpack the `.tar.gz`-package
@@ -20,19 +16,17 @@
 
 [![How to install on Linux](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/e54c256e-21b6-4825-95b8-49dd1bea09a5)](https://youtu.be/kH_cn3uqaNw)
 
-</details>
 
-<details>
-<summary>Raspberry Pi OS</summary>
+
+## Installing on Raspberry Pi OS
 
 * Download `UGS Platform` for Linux ARM or ARM64 (if you are running the 64-bit OS version) from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Unpack the `.tar.gz`-package
 * Start the program ```bin/ugsplatform```
-</details>
 
 
-<details>
-<summary>MacOSX</summary>
+
+## Installing on MacOSX
 
 * Download `UGS Platform` for MacOSX from [here](https://github.com/winder/Universal-G-Code-Sender#downloads). 
 * Double click the `.dmg`-file.
@@ -40,9 +34,6 @@
 * Find the application in the Application folder and right click to open.<br/>There might be a warning that the application is not signed which you need to ignore.
 
 [![How to install on MacOSX](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/84af8207-4690-4308-b567-e5277dfbfdc2)](https://www.youtube.com/watch?v=-iNZ1SIsly4)
-
-
-</details>
 
 
 ## UGS Classic
