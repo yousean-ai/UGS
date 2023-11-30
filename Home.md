@@ -12,6 +12,8 @@ Universal Gcode Sender is a full featured gcode sender platform for Windows/Linu
 
 :question: [FAQ and Troubleshooting](Troubleshooting-Overview)
 
+:gift: [Contributing](Contributing)
+
 ***
 
 [![Language](http://winder.github.io/ugs_website/img/shields/Language-Java-brightgreen.svg)](https://adoptopenjdk.net/)
