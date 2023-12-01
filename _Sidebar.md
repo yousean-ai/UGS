@@ -11,3 +11,5 @@
 :star2: [Usage](Usage)
 
 :question: [FAQ and Troubleshooting](Troubleshooting-Overview)
+
+:gift: [Contributing](Contributing)
