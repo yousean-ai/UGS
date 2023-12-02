@@ -209,6 +209,9 @@ These APIs are used by all front ends (Classic GUI, PendantUI and UGS Platform).
 # Plugin
 The UGS Platform is built ontop of the NetBeans Platform. This gives us powerful tools to work with, including a robust plugin system. The heart of the UGS Platform is a module which wraps and exposes the Universal Gcode Sender JAR file - the same jar you could execute to run the Classic GUI! Other than using the UGSLib module, developing a plugin for the UGS Platform is exactly the same as developing any other NetBeans Platform plugin. And there is lots of great documentation for that, here is the [NetBeans Platform Plugin Quick Start](https://netbeans.apache.org/tutorial/main/tutorials/nbm-google/) guide.
 
+See this tutorial on how to create a new module: [Developing a new module](Developing-a-new-module)
+
+
 # Gcode processor
 The UGS core library has a flexible gcode processor plugin system. It is designed as a processing pipeline to convert one line of code at a time by passing it through multiple **Command Processor** plugins. Some advanced features in UGS, like the Auto Leveler, take advantage of this feature to inject a special processor module into the gcode processing pipeline. Other processors are simpler, such as the **M30Processor** which simply removes unwanted 
 **M30** commands, or the **CommandLengthProcessor** which causes an error if the final processed line has too much data for your controller.
