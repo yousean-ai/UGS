@@ -4,7 +4,7 @@
 * Unpack the `.zip`-package
 * Start the program ```bin/ugsplatform64.exe```
 
-[![How to install on Windows](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/195c53de-61f5-4af7-b1a8-e17bf6e47591)](https://youtu.be/pVzxDFRGGrc)
+[![How to install on Windows](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/195c53de-61f5-4af7-b1a8-e17bf6e47591)](https://youtu.be/3OdHT98wiNs)
 
 
 
@@ -14,7 +14,7 @@
 * Unpack the `.tar.gz`-package
 * Start the program ```bin/ugsplatform```
 
-[![How to install on Linux](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/e54c256e-21b6-4825-95b8-49dd1bea09a5)](https://youtu.be/kH_cn3uqaNw)
+[![How to install on Linux](https://github.com/winder/Universal-G-Code-Sender/assets/8962024/e54c256e-21b6-4825-95b8-49dd1bea09a5)](https://youtu.be/Wc-eiw5QS-o)
 
 
 
