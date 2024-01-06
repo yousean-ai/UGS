@@ -32,7 +32,7 @@ A Gcode sender is a software that connects with your controller (GRBL, TinyG, G2
 | ---------------------------------------------------- | ------| ----------- | ---------- | ------- | --- | ----- | ------- | --------- | ------- |
 | [UGS Platform](http://winder.github.io/ugs_website/) | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [UGS Classic](http://winder.github.io/ugs_website/)  | L,M,W | G,T,G2,S    | Java       | GPLv3   | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: |
-| [gSender](https://sienci.com/gsender/)               | L,M,W | G           | Javascript | GPLv3   |     | :heavy_check_mark: | | :heavy_check_mark: | |
+| [gSender](https://sienci.com/gsender/)               | L,M,W | G           | Javascript | GPLv3   |     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
 | [bCNC](https://github.com/vlachoudis/bCNC)           | L,M,W | G,S         | Python     | GPLv2   |     | :heavy_check_mark: | | :heavy_check_mark: | :heavy_check_mark: | 
 | [Chilipeppr](http://chilipeppr.com/)                 | L,M,W | G,T         | Javascript | GPLv2   |     | :heavy_check_mark: | | :heavy_check_mark: | :x: |
 | [cnc.js](https://github.com/cncjs/cncjs)             | L,M,W | G,T,G2,S,M  | Javascript | MIT     |     | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
